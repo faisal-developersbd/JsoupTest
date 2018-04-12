@@ -1,0 +1,864 @@
+University of Liberal Arts Bangladesh URMS Apply Online Moodle Library Faculty Search Log in IQAC Webmail Menu About Us Academic Council Awards and Achievements Board of Trustees Book Publications Journals Institutional Quality Assurance Cell History Mission and Values Partners and Affiliates Strategic Plan Syndicate Quality. ULAB is a leader among private universities in Bangladesh. Our vision is to transform education in the country, as well as in the region. Our exclusive partnerships with universities, NGOs, GOs, and research organizations support us in bringing a world-class education to students. Close Future students Admissions Tuition & Fees Scholarships & Aid Clubs and Co-curriculars Digital Technology Career Services ULAB Prospectus Admission Requirements Facilities Student Support Services What is Liberal Arts? Where Graduates get Jobs How to Apply Apply Online Dynamic. ULAB students are young, energetic, and committed. Here, you will be sustained, but also challenged, as you make friends and colleagues you will keep your whole life. When you join ULAB, you join a new generation of successful graduates who are influencing the country. Close Academics Vision. Our unique curriculum fosters the values of creativity, freedom and service. ULAB students become real learners, not just job-seekers; and our faculty generators of knowledge, not mere suppliers. We draw upon the world's intellectual traditions to respond to urgencies of the present. Academic Calendar Event Calendar Degrees Offered Faculty Course Catalogue General Education Program School of Arts & Humanities School of Business School of Science & Engineering School of Social Science Close Research Knowledge. Universities must be creators and disseminators of knowledge. ULAB has vibrant centers of inquiry that produce cross-disciplinary research in education, sustainability, media, business, engineering, and more. Their work will reach out the world and inform global intellectual platforms Center for Bangla Studies Center for Language Studies Center for Enterprise & Society Center for Sustainable Development Center for Advanced Theory (CAT) Dhaka Translation Center Center for Archaeological Studies Bengal Lights Center for Excellence in Teaching and Learning Publications Office of Faculty Research Close Administration Leadership. ULAB forms a community of Bangladesh's brightest minds and most committed educators; and create opportunities for them to meet their academic and human potential. We believe in open and respectful interaction with students, and among its staff at all levels. Vice Chancellor's Office Registrar's office Communication Office Administration Human Resource Office IT Office Proctor's Office Close My ULAB Community. Based in the lively Dhanmondi area of Dhaka, ULAB is your second home. You form an energetic fellowship of students, faculty, and staff who challenge and inspire. Find all the resources you need here to thrive during your tenure at ULAB. Alumni Career Services Co Curriculars Library Academic Calander Convocation My URMS Students Affairs Office Sports Webmail Login Faculty Login University Policies Close menu Home About Us Future students Academics Research Administration MyULAB URMS ULAB Moodle Library A–Z Visitors Degrees Offered Faculty Search News On Campus Comics, Self-defense, Reproductive Health & Drama to Celebrate the IWD 2018 at ULAB MSJ holds freshers’ orientation for Spring 2018 Dhaka International Mobile Film Festival held at ULAB Radio Cambuzz celebrates ‘World Radio Day’ Workshop on Sound, Stress, & Intonation conducted by ULAB Language Club Creative Writing Certificate Workshop concludes DEH Orientation Spring 2018 Boshonto Utshob & Club Day Spring 2018 View All Special Notice Summer 2018 Admission is now open Test date: Friday, 20 April 2018 (Graduate) & Saturday, 21 April 2018 (Undergraduate) Time: 3:00 PM Notice Board Holiday – Bangla New Year Saturday, 14 April 2018 ULAB is offering Minor courses in Sustainable Development Studies starting Summer 2018 Get to join the courses and sharpen your abilities for new career opportunities! Schedule of Shuttle (Bus) Services Bus Services to go to Permanent Campus Notice Board Research Centers Center for Language Studies CLS aims to improve the quality of English language learning and teaching at the ULAB. Center for Sustainable Development The University of Liberal Arts Bangladesh (ULAB) believes in working towards sustainable development practices in Center for Enterprise & Society The University of Liberal Arts Bangladesh’s Center for Enterprise and Society (CES) seeks to advance understanding of the opportunities and challenges Center for Archaeological Studies ULAB Professor and Archaeologist Dr. Shahnaj Husne Jahan has obtained permission from the Department of Archaeology Bengal Lights bengal lights is a literary journal published from dhaka, bangladesh. our tastes are cosmopolitan: no location, no writer, no genre is off-limits. we welcome all writers Dhaka Translation Center The Dhaka Translation Center (DTC) celebrates the rich Bangladeshi literary tradition by encouraging a greater exchange with contemporary world literature. Center for Bangla Studies The aims and objects of the Center are to undertake research and publication of various aspects of the Bengali Language and Literature. Center for Advanced Theory (CAT) The aims and objectives of the Center are to undertake research and publication of various aspects of the advanced theory. Center for Excellence in Teaching and Learning (CETL) CETL is a full fledged center established primarily for developing and implementing quality teaching practices for the faculty and staff. Events Apr14 Boishakhi Mela – Bangla Naboborsho 1425 @ 7:00 am - 11:00 am Apr20 200 Years of the Brontes: 4th Inter-University Students’ Conference Apr 20 - 20 View All Events Quick Links Future Students ULAB Prospectus Clubs Sports Schools Arts & Humanities Business Science & Engineering Social Science Departments Departments A-Z Programs Research Research Centers Office of Faculty Research Publications Admission Undergraduate Graduate Financial Aid Prospectus Quick Links A-Z Index Directory History Giving Quick Links Apply Online Jobs at ULAB Contact Us Address House 56, Rd 4/A @ Satmasjid Road Dhanmondi, Dhaka-1209, Bangladesh Mobile: 01730-082197, 01713-091936, 01714-161613. Phone: 966-1255 Fax: +88-02-9660610 Location Map The University of Liberal Arts Bangladesh and its curricula are accredited by the University Grants Commission (UGC) of Bangladesh, and approved by the Ministry of Education, Government of People's Republic of Bangladesh. © 2006-2018 UNIVERSITY OF LIBERAL ARTS BANGLADESH All Rights Reserved Terms of Use Privacy Policy
+University of Liberal Arts Bangladesh URMS Apply Online Moodle Library Faculty Search Log in IQAC Webmail Menu About Us Academic Council Awards and Achievements Board of Trustees Book Publications Journals Institutional Quality Assurance Cell History Mission and Values Partners and Affiliates Strategic Plan Syndicate Quality. ULAB is a leader among private universities in Bangladesh. Our vision is to transform education in the country, as well as in the region. Our exclusive partnerships with universities, NGOs, GOs, and research organizations support us in bringing a world-class education to students. Close Future students Admissions Tuition & Fees Scholarships & Aid Clubs and Co-curriculars Digital Technology Career Services ULAB Prospectus Admission Requirements Facilities Student Support Services What is Liberal Arts? Where Graduates get Jobs How to Apply Apply Online Dynamic. ULAB students are young, energetic, and committed. Here, you will be sustained, but also challenged, as you make friends and colleagues you will keep your whole life. When you join ULAB, you join a new generation of successful graduates who are influencing the country. Close Academics Vision. Our unique curriculum fosters the values of creativity, freedom and service. ULAB students become real learners, not just job-seekers; and our faculty generators of knowledge, not mere suppliers. We draw upon the world's intellectual traditions to respond to urgencies of the present. Academic Calendar Event Calendar Degrees Offered Faculty Course Catalogue General Education Program School of Arts & Humanities School of Business School of Science & Engineering School of Social Science Close Research Knowledge. Universities must be creators and disseminators of knowledge. ULAB has vibrant centers of inquiry that produce cross-disciplinary research in education, sustainability, media, business, engineering, and more. Their work will reach out the world and inform global intellectual platforms Center for Bangla Studies Center for Language Studies Center for Enterprise & Society Center for Sustainable Development Center for Advanced Theory (CAT) Dhaka Translation Center Center for Archaeological Studies Bengal Lights Center for Excellence in Teaching and Learning Publications Office of Faculty Research Close Administration Leadership. ULAB forms a community of Bangladesh's brightest minds and most committed educators; and create opportunities for them to meet their academic and human potential. We believe in open and respectful interaction with students, and among its staff at all levels. Vice Chancellor's Office Registrar's office Communication Office Administration Human Resource Office IT Office Proctor's Office Close My ULAB Community. Based in the lively Dhanmondi area of Dhaka, ULAB is your second home. You form an energetic fellowship of students, faculty, and staff who challenge and inspire. Find all the resources you need here to thrive during your tenure at ULAB. Alumni Career Services Co Curriculars Library Academic Calander Convocation My URMS Students Affairs Office Sports Webmail Login Faculty Login University Policies Close menu Home About Us Future students Academics Research Administration MyULAB URMS ULAB Moodle Library A–Z Visitors Degrees Offered Faculty Search News On Campus Comics, Self-defense, Reproductive Health & Drama to Celebrate the IWD 2018 at ULAB MSJ holds freshers’ orientation for Spring 2018 Dhaka International Mobile Film Festival held at ULAB Radio Cambuzz celebrates ‘World Radio Day’ Workshop on Sound, Stress, & Intonation conducted by ULAB Language Club Creative Writing Certificate Workshop concludes DEH Orientation Spring 2018 Boshonto Utshob & Club Day Spring 2018 View All Special Notice Summer 2018 Admission is now open Test date: Friday, 20 April 2018 (Graduate) & Saturday, 21 April 2018 (Undergraduate) Time: 3:00 PM Notice Board Holiday – Bangla New Year Saturday, 14 April 2018 ULAB is offering Minor courses in Sustainable Development Studies starting Summer 2018 Get to join the courses and sharpen your abilities for new career opportunities! Schedule of Shuttle (Bus) Services Bus Services to go to Permanent Campus Notice Board Research Centers Center for Language Studies CLS aims to improve the quality of English language learning and teaching at the ULAB. Center for Sustainable Development The University of Liberal Arts Bangladesh (ULAB) believes in working towards sustainable development practices in Center for Enterprise & Society The University of Liberal Arts Bangladesh’s Center for Enterprise and Society (CES) seeks to advance understanding of the opportunities and challenges Center for Archaeological Studies ULAB Professor and Archaeologist Dr. Shahnaj Husne Jahan has obtained permission from the Department of Archaeology Bengal Lights bengal lights is a literary journal published from dhaka, bangladesh. our tastes are cosmopolitan: no location, no writer, no genre is off-limits. we welcome all writers Dhaka Translation Center The Dhaka Translation Center (DTC) celebrates the rich Bangladeshi literary tradition by encouraging a greater exchange with contemporary world literature. Center for Bangla Studies The aims and objects of the Center are to undertake research and publication of various aspects of the Bengali Language and Literature. Center for Advanced Theory (CAT) The aims and objectives of the Center are to undertake research and publication of various aspects of the advanced theory. Center for Excellence in Teaching and Learning (CETL) CETL is a full fledged center established primarily for developing and implementing quality teaching practices for the faculty and staff. Events Apr14 Boishakhi Mela – Bangla Naboborsho 1425 @ 7:00 am - 11:00 am Apr20 200 Years of the Brontes: 4th Inter-University Students’ Conference Apr 20 - 20 View All Events Quick Links Future Students ULAB Prospectus Clubs Sports Schools Arts & Humanities Business Science & Engineering Social Science Departments Departments A-Z Programs Research Research Centers Office of Faculty Research Publications Admission Undergraduate Graduate Financial Aid Prospectus Quick Links A-Z Index Directory History Giving Quick Links Apply Online Jobs at ULAB Contact Us Address House 56, Rd 4/A @ Satmasjid Road Dhanmondi, Dhaka-1209, Bangladesh Mobile: 01730-082197, 01713-091936, 01714-161613. Phone: 966-1255 Fax: +88-02-9660610 Location Map The University of Liberal Arts Bangladesh and its curricula are accredited by the University Grants Commission (UGC) of Bangladesh, and approved by the Ministry of Education, Government of People's Republic of Bangladesh. © 2006-2018 UNIVERSITY OF LIBERAL ARTS BANGLADESH All Rights Reserved Terms of Use Privacy Policy
+University of Liberal Arts Bangladesh
+
+
+
+
+
+
+
+
+
+
+
+
+University of Liberal Arts Bangladesh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+URMS Apply Online Moodle Library Faculty Search Log in IQAC Webmail Menu About Us Academic Council Awards and Achievements Board of Trustees Book Publications Journals Institutional Quality Assurance Cell History Mission and Values Partners and Affiliates Strategic Plan Syndicate Quality. ULAB is a leader among private universities in Bangladesh. Our vision is to transform education in the country, as well as in the region. Our exclusive partnerships with universities, NGOs, GOs, and research organizations support us in bringing a world-class education to students. Close Future students Admissions Tuition & Fees Scholarships & Aid Clubs and Co-curriculars Digital Technology Career Services ULAB Prospectus Admission Requirements Facilities Student Support Services What is Liberal Arts? Where Graduates get Jobs How to Apply Apply Online Dynamic. ULAB students are young, energetic, and committed. Here, you will be sustained, but also challenged, as you make friends and colleagues you will keep your whole life. When you join ULAB, you join a new generation of successful graduates who are influencing the country. Close Academics Vision. Our unique curriculum fosters the values of creativity, freedom and service. ULAB students become real learners, not just job-seekers; and our faculty generators of knowledge, not mere suppliers. We draw upon the world's intellectual traditions to respond to urgencies of the present. Academic Calendar Event Calendar Degrees Offered Faculty Course Catalogue General Education Program School of Arts & Humanities School of Business School of Science & Engineering School of Social Science Close Research Knowledge. Universities must be creators and disseminators of knowledge. ULAB has vibrant centers of inquiry that produce cross-disciplinary research in education, sustainability, media, business, engineering, and more. Their work will reach out the world and inform global intellectual platforms Center for Bangla Studies Center for Language Studies Center for Enterprise & Society Center for Sustainable Development Center for Advanced Theory (CAT) Dhaka Translation Center Center for Archaeological Studies Bengal Lights Center for Excellence in Teaching and Learning Publications Office of Faculty Research Close Administration Leadership. ULAB forms a community of Bangladesh's brightest minds and most committed educators; and create opportunities for them to meet their academic and human potential. We believe in open and respectful interaction with students, and among its staff at all levels. Vice Chancellor's Office Registrar's office Communication Office Administration Human Resource Office IT Office Proctor's Office Close My ULAB Community. Based in the lively Dhanmondi area of Dhaka, ULAB is your second home. You form an energetic fellowship of students, faculty, and staff who challenge and inspire. Find all the resources you need here to thrive during your tenure at ULAB. Alumni Career Services Co Curriculars Library Academic Calander Convocation My URMS Students Affairs Office Sports Webmail Login Faculty Login University Policies Close menu Home About Us Future students Academics Research Administration MyULAB URMS ULAB Moodle Library A–Z Visitors Degrees Offered Faculty Search News On Campus Comics, Self-defense, Reproductive Health & Drama to Celebrate the IWD 2018 at ULAB MSJ holds freshers’ orientation for Spring 2018 Dhaka International Mobile Film Festival held at ULAB Radio Cambuzz celebrates ‘World Radio Day’ Workshop on Sound, Stress, & Intonation conducted by ULAB Language Club Creative Writing Certificate Workshop concludes DEH Orientation Spring 2018 Boshonto Utshob & Club Day Spring 2018 View All Special Notice Summer 2018 Admission is now open Test date: Friday, 20 April 2018 (Graduate) & Saturday, 21 April 2018 (Undergraduate) Time: 3:00 PM Notice Board Holiday – Bangla New Year Saturday, 14 April 2018 ULAB is offering Minor courses in Sustainable Development Studies starting Summer 2018 Get to join the courses and sharpen your abilities for new career opportunities! Schedule of Shuttle (Bus) Services Bus Services to go to Permanent Campus Notice Board Research Centers Center for Language Studies CLS aims to improve the quality of English language learning and teaching at the ULAB. Center for Sustainable Development The University of Liberal Arts Bangladesh (ULAB) believes in working towards sustainable development practices in Center for Enterprise & Society The University of Liberal Arts Bangladesh’s Center for Enterprise and Society (CES) seeks to advance understanding of the opportunities and challenges Center for Archaeological Studies ULAB Professor and Archaeologist Dr. Shahnaj Husne Jahan has obtained permission from the Department of Archaeology Bengal Lights bengal lights is a literary journal published from dhaka, bangladesh. our tastes are cosmopolitan: no location, no writer, no genre is off-limits. we welcome all writers Dhaka Translation Center The Dhaka Translation Center (DTC) celebrates the rich Bangladeshi literary tradition by encouraging a greater exchange with contemporary world literature. Center for Bangla Studies The aims and objects of the Center are to undertake research and publication of various aspects of the Bengali Language and Literature. Center for Advanced Theory (CAT) The aims and objectives of the Center are to undertake research and publication of various aspects of the advanced theory. Center for Excellence in Teaching and Learning (CETL) CETL is a full fledged center established primarily for developing and implementing quality teaching practices for the faculty and staff. Events Apr14 Boishakhi Mela – Bangla Naboborsho 1425 @ 7:00 am - 11:00 am Apr20 200 Years of the Brontes: 4th Inter-University Students’ Conference Apr 20 - 20 View All Events Quick Links Future Students ULAB Prospectus Clubs Sports Schools Arts & Humanities Business Science & Engineering Social Science Departments Departments A-Z Programs Research Research Centers Office of Faculty Research Publications Admission Undergraduate Graduate Financial Aid Prospectus Quick Links A-Z Index Directory History Giving Quick Links Apply Online Jobs at ULAB Contact Us Address House 56, Rd 4/A @ Satmasjid Road Dhanmondi, Dhaka-1209, Bangladesh Mobile: 01730-082197, 01713-091936, 01714-161613. Phone: 966-1255 Fax: +88-02-9660610 Location Map The University of Liberal Arts Bangladesh and its curricula are accredited by the University Grants Commission (UGC) of Bangladesh, and approved by the Ministry of Education, Government of People's Republic of Bangladesh. © 2006-2018 UNIVERSITY OF LIBERAL ARTS BANGLADESH All Rights Reserved Terms of Use Privacy Policy
+URMS Apply Online Moodle Library Faculty Search Log in IQAC Webmail
+URMS Apply Online Moodle Library Faculty Search Log in IQAC Webmail
+URMS Apply Online Moodle Library Faculty Search Log in IQAC Webmail
+
+
+
+URMS Apply Online Moodle Library Faculty Search Log in IQAC Webmail
+URMS Apply Online Moodle Library Faculty Search Log in IQAC Webmail
+URMS Apply Online Moodle Library Faculty Search Log in IQAC Webmail
+URMS Apply Online Moodle Library Faculty Search Log in IQAC Webmail
+
+URMS Apply Online Moodle Library Faculty Search Log in IQAC Webmail
+URMS
+URMS
+Apply Online
+Apply Online
+Moodle
+Moodle
+Library
+Library
+Faculty Search
+Faculty Search
+Log in
+Log in
+IQAC
+IQAC
+Webmail
+Webmail
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Menu About Us Academic Council Awards and Achievements Board of Trustees Book Publications Journals Institutional Quality Assurance Cell History Mission and Values Partners and Affiliates Strategic Plan Syndicate Quality. ULAB is a leader among private universities in Bangladesh. Our vision is to transform education in the country, as well as in the region. Our exclusive partnerships with universities, NGOs, GOs, and research organizations support us in bringing a world-class education to students. Close Future students Admissions Tuition & Fees Scholarships & Aid Clubs and Co-curriculars Digital Technology Career Services ULAB Prospectus Admission Requirements Facilities Student Support Services What is Liberal Arts? Where Graduates get Jobs How to Apply Apply Online Dynamic. ULAB students are young, energetic, and committed. Here, you will be sustained, but also challenged, as you make friends and colleagues you will keep your whole life. When you join ULAB, you join a new generation of successful graduates who are influencing the country. Close Academics Vision. Our unique curriculum fosters the values of creativity, freedom and service. ULAB students become real learners, not just job-seekers; and our faculty generators of knowledge, not mere suppliers. We draw upon the world's intellectual traditions to respond to urgencies of the present. Academic Calendar Event Calendar Degrees Offered Faculty Course Catalogue General Education Program School of Arts & Humanities School of Business School of Science & Engineering School of Social Science Close Research Knowledge. Universities must be creators and disseminators of knowledge. ULAB has vibrant centers of inquiry that produce cross-disciplinary research in education, sustainability, media, business, engineering, and more. Their work will reach out the world and inform global intellectual platforms Center for Bangla Studies Center for Language Studies Center for Enterprise & Society Center for Sustainable Development Center for Advanced Theory (CAT) Dhaka Translation Center Center for Archaeological Studies Bengal Lights Center for Excellence in Teaching and Learning Publications Office of Faculty Research Close Administration Leadership. ULAB forms a community of Bangladesh's brightest minds and most committed educators; and create opportunities for them to meet their academic and human potential. We believe in open and respectful interaction with students, and among its staff at all levels. Vice Chancellor's Office Registrar's office Communication Office Administration Human Resource Office IT Office Proctor's Office Close My ULAB Community. Based in the lively Dhanmondi area of Dhaka, ULAB is your second home. You form an energetic fellowship of students, faculty, and staff who challenge and inspire. Find all the resources you need here to thrive during your tenure at ULAB. Alumni Career Services Co Curriculars Library Academic Calander Convocation My URMS Students Affairs Office Sports Webmail Login Faculty Login University Policies Close menu Home About Us Future students Academics Research Administration MyULAB URMS ULAB Moodle Library A–Z Visitors Degrees Offered Faculty Search
+Menu About Us Academic Council Awards and Achievements Board of Trustees Book Publications Journals Institutional Quality Assurance Cell History Mission and Values Partners and Affiliates Strategic Plan Syndicate Quality. ULAB is a leader among private universities in Bangladesh. Our vision is to transform education in the country, as well as in the region. Our exclusive partnerships with universities, NGOs, GOs, and research organizations support us in bringing a world-class education to students. Close Future students Admissions Tuition & Fees Scholarships & Aid Clubs and Co-curriculars Digital Technology Career Services ULAB Prospectus Admission Requirements Facilities Student Support Services What is Liberal Arts? Where Graduates get Jobs How to Apply Apply Online Dynamic. ULAB students are young, energetic, and committed. Here, you will be sustained, but also challenged, as you make friends and colleagues you will keep your whole life. When you join ULAB, you join a new generation of successful graduates who are influencing the country. Close Academics Vision. Our unique curriculum fosters the values of creativity, freedom and service. ULAB students become real learners, not just job-seekers; and our faculty generators of knowledge, not mere suppliers. We draw upon the world's intellectual traditions to respond to urgencies of the present. Academic Calendar Event Calendar Degrees Offered Faculty Course Catalogue General Education Program School of Arts & Humanities School of Business School of Science & Engineering School of Social Science Close Research Knowledge. Universities must be creators and disseminators of knowledge. ULAB has vibrant centers of inquiry that produce cross-disciplinary research in education, sustainability, media, business, engineering, and more. Their work will reach out the world and inform global intellectual platforms Center for Bangla Studies Center for Language Studies Center for Enterprise & Society Center for Sustainable Development Center for Advanced Theory (CAT) Dhaka Translation Center Center for Archaeological Studies Bengal Lights Center for Excellence in Teaching and Learning Publications Office of Faculty Research Close Administration Leadership. ULAB forms a community of Bangladesh's brightest minds and most committed educators; and create opportunities for them to meet their academic and human potential. We believe in open and respectful interaction with students, and among its staff at all levels. Vice Chancellor's Office Registrar's office Communication Office Administration Human Resource Office IT Office Proctor's Office Close My ULAB Community. Based in the lively Dhanmondi area of Dhaka, ULAB is your second home. You form an energetic fellowship of students, faculty, and staff who challenge and inspire. Find all the resources you need here to thrive during your tenure at ULAB. Alumni Career Services Co Curriculars Library Academic Calander Convocation My URMS Students Affairs Office Sports Webmail Login Faculty Login University Policies Close menu Home About Us Future students Academics Research Administration MyULAB URMS ULAB Moodle Library A–Z Visitors Degrees Offered Faculty Search
+Menu About Us Academic Council Awards and Achievements Board of Trustees Book Publications Journals Institutional Quality Assurance Cell History Mission and Values Partners and Affiliates Strategic Plan Syndicate Quality. ULAB is a leader among private universities in Bangladesh. Our vision is to transform education in the country, as well as in the region. Our exclusive partnerships with universities, NGOs, GOs, and research organizations support us in bringing a world-class education to students. Close Future students Admissions Tuition & Fees Scholarships & Aid Clubs and Co-curriculars Digital Technology Career Services ULAB Prospectus Admission Requirements Facilities Student Support Services What is Liberal Arts? Where Graduates get Jobs How to Apply Apply Online Dynamic. ULAB students are young, energetic, and committed. Here, you will be sustained, but also challenged, as you make friends and colleagues you will keep your whole life. When you join ULAB, you join a new generation of successful graduates who are influencing the country. Close Academics Vision. Our unique curriculum fosters the values of creativity, freedom and service. ULAB students become real learners, not just job-seekers; and our faculty generators of knowledge, not mere suppliers. We draw upon the world's intellectual traditions to respond to urgencies of the present. Academic Calendar Event Calendar Degrees Offered Faculty Course Catalogue General Education Program School of Arts & Humanities School of Business School of Science & Engineering School of Social Science Close Research Knowledge. Universities must be creators and disseminators of knowledge. ULAB has vibrant centers of inquiry that produce cross-disciplinary research in education, sustainability, media, business, engineering, and more. Their work will reach out the world and inform global intellectual platforms Center for Bangla Studies Center for Language Studies Center for Enterprise & Society Center for Sustainable Development Center for Advanced Theory (CAT) Dhaka Translation Center Center for Archaeological Studies Bengal Lights Center for Excellence in Teaching and Learning Publications Office of Faculty Research Close Administration Leadership. ULAB forms a community of Bangladesh's brightest minds and most committed educators; and create opportunities for them to meet their academic and human potential. We believe in open and respectful interaction with students, and among its staff at all levels. Vice Chancellor's Office Registrar's office Communication Office Administration Human Resource Office IT Office Proctor's Office Close My ULAB Community. Based in the lively Dhanmondi area of Dhaka, ULAB is your second home. You form an energetic fellowship of students, faculty, and staff who challenge and inspire. Find all the resources you need here to thrive during your tenure at ULAB. Alumni Career Services Co Curriculars Library Academic Calander Convocation My URMS Students Affairs Office Sports Webmail Login Faculty Login University Policies Close
+Menu
+
+About Us Academic Council Awards and Achievements Board of Trustees Book Publications Journals Institutional Quality Assurance Cell History Mission and Values Partners and Affiliates Strategic Plan Syndicate Quality. ULAB is a leader among private universities in Bangladesh. Our vision is to transform education in the country, as well as in the region. Our exclusive partnerships with universities, NGOs, GOs, and research organizations support us in bringing a world-class education to students. Close Future students Admissions Tuition & Fees Scholarships & Aid Clubs and Co-curriculars Digital Technology Career Services ULAB Prospectus Admission Requirements Facilities Student Support Services What is Liberal Arts? Where Graduates get Jobs How to Apply Apply Online Dynamic. ULAB students are young, energetic, and committed. Here, you will be sustained, but also challenged, as you make friends and colleagues you will keep your whole life. When you join ULAB, you join a new generation of successful graduates who are influencing the country. Close Academics Vision. Our unique curriculum fosters the values of creativity, freedom and service. ULAB students become real learners, not just job-seekers; and our faculty generators of knowledge, not mere suppliers. We draw upon the world's intellectual traditions to respond to urgencies of the present. Academic Calendar Event Calendar Degrees Offered Faculty Course Catalogue General Education Program School of Arts & Humanities School of Business School of Science & Engineering School of Social Science Close Research Knowledge. Universities must be creators and disseminators of knowledge. ULAB has vibrant centers of inquiry that produce cross-disciplinary research in education, sustainability, media, business, engineering, and more. Their work will reach out the world and inform global intellectual platforms Center for Bangla Studies Center for Language Studies Center for Enterprise & Society Center for Sustainable Development Center for Advanced Theory (CAT) Dhaka Translation Center Center for Archaeological Studies Bengal Lights Center for Excellence in Teaching and Learning Publications Office of Faculty Research Close Administration Leadership. ULAB forms a community of Bangladesh's brightest minds and most committed educators; and create opportunities for them to meet their academic and human potential. We believe in open and respectful interaction with students, and among its staff at all levels. Vice Chancellor's Office Registrar's office Communication Office Administration Human Resource Office IT Office Proctor's Office Close My ULAB Community. Based in the lively Dhanmondi area of Dhaka, ULAB is your second home. You form an energetic fellowship of students, faculty, and staff who challenge and inspire. Find all the resources you need here to thrive during your tenure at ULAB. Alumni Career Services Co Curriculars Library Academic Calander Convocation My URMS Students Affairs Office Sports Webmail Login Faculty Login University Policies Close
+About Us Academic Council Awards and Achievements Board of Trustees Book Publications Journals Institutional Quality Assurance Cell History Mission and Values Partners and Affiliates Strategic Plan Syndicate Quality. ULAB is a leader among private universities in Bangladesh. Our vision is to transform education in the country, as well as in the region. Our exclusive partnerships with universities, NGOs, GOs, and research organizations support us in bringing a world-class education to students. Close Future students Admissions Tuition & Fees Scholarships & Aid Clubs and Co-curriculars Digital Technology Career Services ULAB Prospectus Admission Requirements Facilities Student Support Services What is Liberal Arts? Where Graduates get Jobs How to Apply Apply Online Dynamic. ULAB students are young, energetic, and committed. Here, you will be sustained, but also challenged, as you make friends and colleagues you will keep your whole life. When you join ULAB, you join a new generation of successful graduates who are influencing the country. Close Academics Vision. Our unique curriculum fosters the values of creativity, freedom and service. ULAB students become real learners, not just job-seekers; and our faculty generators of knowledge, not mere suppliers. We draw upon the world's intellectual traditions to respond to urgencies of the present. Academic Calendar Event Calendar Degrees Offered Faculty Course Catalogue General Education Program School of Arts & Humanities School of Business School of Science & Engineering School of Social Science Close Research Knowledge. Universities must be creators and disseminators of knowledge. ULAB has vibrant centers of inquiry that produce cross-disciplinary research in education, sustainability, media, business, engineering, and more. Their work will reach out the world and inform global intellectual platforms Center for Bangla Studies Center for Language Studies Center for Enterprise & Society Center for Sustainable Development Center for Advanced Theory (CAT) Dhaka Translation Center Center for Archaeological Studies Bengal Lights Center for Excellence in Teaching and Learning Publications Office of Faculty Research Close Administration Leadership. ULAB forms a community of Bangladesh's brightest minds and most committed educators; and create opportunities for them to meet their academic and human potential. We believe in open and respectful interaction with students, and among its staff at all levels. Vice Chancellor's Office Registrar's office Communication Office Administration Human Resource Office IT Office Proctor's Office Close My ULAB Community. Based in the lively Dhanmondi area of Dhaka, ULAB is your second home. You form an energetic fellowship of students, faculty, and staff who challenge and inspire. Find all the resources you need here to thrive during your tenure at ULAB. Alumni Career Services Co Curriculars Library Academic Calander Convocation My URMS Students Affairs Office Sports Webmail Login Faculty Login University Policies Close
+About Us Academic Council Awards and Achievements Board of Trustees Book Publications Journals Institutional Quality Assurance Cell History Mission and Values Partners and Affiliates Strategic Plan Syndicate Quality. ULAB is a leader among private universities in Bangladesh. Our vision is to transform education in the country, as well as in the region. Our exclusive partnerships with universities, NGOs, GOs, and research organizations support us in bringing a world-class education to students. Close
+About Us
+About Us
+Academic Council Awards and Achievements Board of Trustees Book Publications Journals Institutional Quality Assurance Cell History Mission and Values Partners and Affiliates Strategic Plan Syndicate Quality. ULAB is a leader among private universities in Bangladesh. Our vision is to transform education in the country, as well as in the region. Our exclusive partnerships with universities, NGOs, GOs, and research organizations support us in bringing a world-class education to students. Close
+Academic Council Awards and Achievements Board of Trustees Book Publications Journals Institutional Quality Assurance Cell
+Academic Council Awards and Achievements Board of Trustees Book Publications Journals Institutional Quality Assurance Cell
+Academic Council
+Academic Council
+Academic Council
+Awards and Achievements
+Awards and Achievements
+Awards and Achievements
+Board of Trustees
+Board of Trustees
+Board of Trustees
+Book Publications
+Book Publications
+Book Publications
+Journals
+Journals
+Journals
+Institutional Quality Assurance Cell
+Institutional Quality Assurance Cell
+Institutional Quality Assurance Cell
+History Mission and Values Partners and Affiliates Strategic Plan Syndicate
+History Mission and Values Partners and Affiliates Strategic Plan Syndicate
+History
+History
+History
+Mission and Values
+Mission and Values
+Mission and Values
+Partners and Affiliates
+Partners and Affiliates
+Partners and Affiliates
+Strategic Plan
+Strategic Plan
+Strategic Plan
+Syndicate
+Syndicate
+Syndicate
+Quality. ULAB is a leader among private universities in Bangladesh. Our vision is to transform education in the country, as well as in the region. Our exclusive partnerships with universities, NGOs, GOs, and research organizations support us in bringing a world-class education to students.
+Quality. ULAB is a leader among private universities in Bangladesh. Our vision is to transform education in the country, as well as in the region. Our exclusive partnerships with universities, NGOs, GOs, and research organizations support us in bringing a world-class education to students.
+Quality. ULAB is a leader among private universities in Bangladesh. Our vision is to transform education in the country, as well as in the region. Our exclusive partnerships with universities, NGOs, GOs, and research organizations support us in bringing a world-class education to students.
+Quality. ULAB is a leader among private universities in Bangladesh. Our vision is to transform education in the country, as well as in the region. Our exclusive partnerships with universities, NGOs, GOs, and research organizations support us in bringing a world-class education to students.
+
+Quality.
+Close
+
+Future students Admissions Tuition & Fees Scholarships & Aid Clubs and Co-curriculars Digital Technology Career Services ULAB Prospectus Admission Requirements Facilities Student Support Services What is Liberal Arts? Where Graduates get Jobs How to Apply Apply Online Dynamic. ULAB students are young, energetic, and committed. Here, you will be sustained, but also challenged, as you make friends and colleagues you will keep your whole life. When you join ULAB, you join a new generation of successful graduates who are influencing the country. Close
+Future students
+Future students
+Admissions Tuition & Fees Scholarships & Aid Clubs and Co-curriculars Digital Technology Career Services ULAB Prospectus Admission Requirements Facilities Student Support Services What is Liberal Arts? Where Graduates get Jobs How to Apply Apply Online Dynamic. ULAB students are young, energetic, and committed. Here, you will be sustained, but also challenged, as you make friends and colleagues you will keep your whole life. When you join ULAB, you join a new generation of successful graduates who are influencing the country. Close
+Admissions Tuition & Fees Scholarships & Aid Clubs and Co-curriculars Digital Technology Career Services ULAB Prospectus
+Admissions Tuition & Fees Scholarships & Aid Clubs and Co-curriculars Digital Technology Career Services ULAB Prospectus
+Admissions
+Admissions
+Admissions
+Tuition & Fees
+Tuition & Fees
+Tuition & Fees
+Scholarships & Aid
+Scholarships & Aid
+Scholarships & Aid
+Clubs and Co-curriculars
+Clubs and Co-curriculars
+Clubs and Co-curriculars
+Digital Technology
+Digital Technology
+Digital Technology
+Career Services
+Career Services
+Career Services
+ULAB Prospectus
+ULAB Prospectus
+ULAB Prospectus
+Admission Requirements Facilities Student Support Services What is Liberal Arts? Where Graduates get Jobs How to Apply Apply Online
+Admission Requirements Facilities Student Support Services What is Liberal Arts? Where Graduates get Jobs How to Apply Apply Online
+Admission Requirements
+Admission Requirements
+Admission Requirements
+Facilities
+Facilities
+Facilities
+Student Support Services
+Student Support Services
+Student Support Services
+What is Liberal Arts?
+What is Liberal Arts?
+What is Liberal Arts?
+Where Graduates get Jobs
+Where Graduates get Jobs
+Where Graduates get Jobs
+How to Apply
+How to Apply
+How to Apply
+Apply Online
+Apply Online
+Apply Online
+Dynamic. ULAB students are young, energetic, and committed. Here, you will be sustained, but also challenged, as you make friends and colleagues you will keep your whole life. When you join ULAB, you join a new generation of successful graduates who are influencing the country.
+Dynamic. ULAB students are young, energetic, and committed. Here, you will be sustained, but also challenged, as you make friends and colleagues you will keep your whole life. When you join ULAB, you join a new generation of successful graduates who are influencing the country.
+Dynamic. ULAB students are young, energetic, and committed. Here, you will be sustained, but also challenged, as you make friends and colleagues you will keep your whole life. When you join ULAB, you join a new generation of successful graduates who are influencing the country.
+Dynamic. ULAB students are young, energetic, and committed. Here, you will be sustained, but also challenged, as you make friends and colleagues you will keep your whole life. When you join ULAB, you join a new generation of successful graduates who are influencing the country.
+
+Dynamic.
+Close
+
+Academics Vision. Our unique curriculum fosters the values of creativity, freedom and service. ULAB students become real learners, not just job-seekers; and our faculty generators of knowledge, not mere suppliers. We draw upon the world's intellectual traditions to respond to urgencies of the present. Academic Calendar Event Calendar Degrees Offered Faculty Course Catalogue General Education Program School of Arts & Humanities School of Business School of Science & Engineering School of Social Science Close
+Academics
+Academics
+Vision. Our unique curriculum fosters the values of creativity, freedom and service. ULAB students become real learners, not just job-seekers; and our faculty generators of knowledge, not mere suppliers. We draw upon the world's intellectual traditions to respond to urgencies of the present. Academic Calendar Event Calendar Degrees Offered Faculty Course Catalogue General Education Program School of Arts & Humanities School of Business School of Science & Engineering School of Social Science Close
+Vision. Our unique curriculum fosters the values of creativity, freedom and service. ULAB students become real learners, not just job-seekers; and our faculty generators of knowledge, not mere suppliers. We draw upon the world's intellectual traditions to respond to urgencies of the present.
+Vision. Our unique curriculum fosters the values of creativity, freedom and service. ULAB students become real learners, not just job-seekers; and our faculty generators of knowledge, not mere suppliers. We draw upon the world's intellectual traditions to respond to urgencies of the present.
+Vision. Our unique curriculum fosters the values of creativity, freedom and service. ULAB students become real learners, not just job-seekers; and our faculty generators of knowledge, not mere suppliers. We draw upon the world's intellectual traditions to respond to urgencies of the present.
+Vision. Our unique curriculum fosters the values of creativity, freedom and service. ULAB students become real learners, not just job-seekers; and our faculty generators of knowledge, not mere suppliers. We draw upon the world's intellectual traditions to respond to urgencies of the present.
+Vision.
+Academic Calendar Event Calendar Degrees Offered Faculty Course Catalogue General Education Program
+Academic Calendar Event Calendar Degrees Offered Faculty Course Catalogue General Education Program
+Academic Calendar
+Academic Calendar
+Academic Calendar
+Event Calendar
+Event Calendar
+Event Calendar
+Degrees Offered
+Degrees Offered
+Degrees Offered
+Faculty
+Faculty
+Faculty
+Course Catalogue
+Course Catalogue
+Course Catalogue
+General Education Program
+General Education Program
+General Education Program
+School of Arts & Humanities School of Business School of Science & Engineering School of Social Science
+School of Arts & Humanities School of Business School of Science & Engineering School of Social Science
+School of Arts & Humanities
+School of Arts & Humanities
+School of Arts & Humanities
+School of Business
+School of Business
+School of Business
+School of Science & Engineering
+School of Science & Engineering
+School of Science & Engineering
+School of Social Science
+School of Social Science
+School of Social Science
+
+
+
+
+
+Close
+
+Research Knowledge. Universities must be creators and disseminators of knowledge. ULAB has vibrant centers of inquiry that produce cross-disciplinary research in education, sustainability, media, business, engineering, and more. Their work will reach out the world and inform global intellectual platforms Center for Bangla Studies Center for Language Studies Center for Enterprise & Society Center for Sustainable Development Center for Advanced Theory (CAT) Dhaka Translation Center Center for Archaeological Studies Bengal Lights Center for Excellence in Teaching and Learning Publications Office of Faculty Research Close
+Research
+Research
+Knowledge. Universities must be creators and disseminators of knowledge. ULAB has vibrant centers of inquiry that produce cross-disciplinary research in education, sustainability, media, business, engineering, and more. Their work will reach out the world and inform global intellectual platforms Center for Bangla Studies Center for Language Studies Center for Enterprise & Society Center for Sustainable Development Center for Advanced Theory (CAT) Dhaka Translation Center Center for Archaeological Studies Bengal Lights Center for Excellence in Teaching and Learning Publications Office of Faculty Research Close
+Knowledge. Universities must be creators and disseminators of knowledge. ULAB has vibrant centers of inquiry that produce cross-disciplinary research in education, sustainability, media, business, engineering, and more. Their work will reach out the world and inform global intellectual platforms
+Knowledge. Universities must be creators and disseminators of knowledge. ULAB has vibrant centers of inquiry that produce cross-disciplinary research in education, sustainability, media, business, engineering, and more. Their work will reach out the world and inform global intellectual platforms
+Knowledge. Universities must be creators and disseminators of knowledge. ULAB has vibrant centers of inquiry that produce cross-disciplinary research in education, sustainability, media, business, engineering, and more. Their work will reach out the world and inform global intellectual platforms
+Knowledge. Universities must be creators and disseminators of knowledge. ULAB has vibrant centers of inquiry that produce cross-disciplinary research in education, sustainability, media, business, engineering, and more. Their work will reach out the world and inform global intellectual platforms
+
+Knowledge.
+Center for Bangla Studies Center for Language Studies Center for Enterprise & Society Center for Sustainable Development Center for Advanced Theory (CAT)
+Center for Bangla Studies Center for Language Studies Center for Enterprise & Society Center for Sustainable Development Center for Advanced Theory (CAT)
+Center for Bangla Studies
+Center for Bangla Studies
+Center for Bangla Studies
+Center for Language Studies
+Center for Language Studies
+Center for Language Studies
+Center for Enterprise & Society
+Center for Enterprise & Society
+Center for Enterprise & Society
+Center for Sustainable Development
+Center for Sustainable Development
+Center for Sustainable Development
+Center for Advanced Theory (CAT)
+Center for Advanced Theory (CAT)
+Center for Advanced Theory (CAT)
+Dhaka Translation Center Center for Archaeological Studies Bengal Lights Center for Excellence in Teaching and Learning Publications Office of Faculty Research
+Dhaka Translation Center Center for Archaeological Studies Bengal Lights Center for Excellence in Teaching and Learning Publications Office of Faculty Research
+Dhaka Translation Center
+Dhaka Translation Center
+Dhaka Translation Center
+Center for Archaeological Studies
+Center for Archaeological Studies
+Center for Archaeological Studies
+Bengal Lights
+Bengal Lights
+Bengal Lights
+Center for Excellence in Teaching and Learning
+Center for Excellence in Teaching and Learning
+Center for Excellence in Teaching and Learning
+Publications
+Publications
+Publications
+Office of Faculty Research
+Office of Faculty Research
+Office of Faculty Research
+Close
+
+Administration Leadership. ULAB forms a community of Bangladesh's brightest minds and most committed educators; and create opportunities for them to meet their academic and human potential. We believe in open and respectful interaction with students, and among its staff at all levels. Vice Chancellor's Office Registrar's office Communication Office Administration Human Resource Office IT Office Proctor's Office Close
+Administration
+Administration
+Leadership. ULAB forms a community of Bangladesh's brightest minds and most committed educators; and create opportunities for them to meet their academic and human potential. We believe in open and respectful interaction with students, and among its staff at all levels. Vice Chancellor's Office Registrar's office Communication Office Administration Human Resource Office IT Office Proctor's Office Close
+Leadership. ULAB forms a community of Bangladesh's brightest minds and most committed educators; and create opportunities for them to meet their academic and human potential. We believe in open and respectful interaction with students, and among its staff at all levels.
+Leadership. ULAB forms a community of Bangladesh's brightest minds and most committed educators; and create opportunities for them to meet their academic and human potential. We believe in open and respectful interaction with students, and among its staff at all levels.
+Leadership. ULAB forms a community of Bangladesh's brightest minds and most committed educators; and create opportunities for them to meet their academic and human potential. We believe in open and respectful interaction with students, and among its staff at all levels.
+Leadership. ULAB forms a community of Bangladesh's brightest minds and most committed educators; and create opportunities for them to meet their academic and human potential. We believe in open and respectful interaction with students, and among its staff at all levels.
+
+Leadership.
+Vice Chancellor's Office Registrar's office Communication Office Administration
+Vice Chancellor's Office Registrar's office Communication Office Administration
+Vice Chancellor's Office
+Vice Chancellor's Office
+Vice Chancellor's Office
+Registrar's office
+Registrar's office
+Registrar's office
+Communication Office
+Communication Office
+Communication Office
+Administration
+Administration
+Administration
+Human Resource Office IT Office Proctor's Office
+Human Resource Office IT Office Proctor's Office
+Human Resource Office
+Human Resource Office
+Human Resource Office
+IT Office
+IT Office
+IT Office
+Proctor's Office
+Proctor's Office
+Proctor's Office
+Close
+
+My ULAB Community. Based in the lively Dhanmondi area of Dhaka, ULAB is your second home. You form an energetic fellowship of students, faculty, and staff who challenge and inspire. Find all the resources you need here to thrive during your tenure at ULAB. Alumni Career Services Co Curriculars Library Academic Calander Convocation My URMS Students Affairs Office Sports Webmail Login Faculty Login University Policies Close
+My ULAB
+My ULAB
+Community. Based in the lively Dhanmondi area of Dhaka, ULAB is your second home. You form an energetic fellowship of students, faculty, and staff who challenge and inspire. Find all the resources you need here to thrive during your tenure at ULAB. Alumni Career Services Co Curriculars Library Academic Calander Convocation My URMS Students Affairs Office Sports Webmail Login Faculty Login University Policies Close
+Community. Based in the lively Dhanmondi area of Dhaka, ULAB is your second home. You form an energetic fellowship of students, faculty, and staff who challenge and inspire. Find all the resources you need here to thrive during your tenure at ULAB.
+Community. Based in the lively Dhanmondi area of Dhaka, ULAB is your second home. You form an energetic fellowship of students, faculty, and staff who challenge and inspire. Find all the resources you need here to thrive during your tenure at ULAB.
+Community. Based in the lively Dhanmondi area of Dhaka, ULAB is your second home. You form an energetic fellowship of students, faculty, and staff who challenge and inspire. Find all the resources you need here to thrive during your tenure at ULAB.
+Community. Based in the lively Dhanmondi area of Dhaka, ULAB is your second home. You form an energetic fellowship of students, faculty, and staff who challenge and inspire. Find all the resources you need here to thrive during your tenure at ULAB.
+
+Community.
+Alumni Career Services Co Curriculars Library Academic Calander Convocation
+Alumni Career Services Co Curriculars Library Academic Calander Convocation
+Alumni
+Alumni
+Alumni
+Career Services
+Career Services
+Career Services
+Co Curriculars
+Co Curriculars
+Co Curriculars
+Library
+Library
+Library
+Academic Calander
+Academic Calander
+Academic Calander
+Convocation
+Convocation
+Convocation
+My URMS Students Affairs Office Sports Webmail Login Faculty Login University Policies
+My URMS Students Affairs Office Sports Webmail Login Faculty Login University Policies
+My URMS
+My URMS
+My URMS
+Students Affairs Office
+Students Affairs Office
+Students Affairs Office
+Sports
+Sports
+Sports
+Webmail Login
+Webmail Login
+Webmail Login
+Faculty Login
+Faculty Login
+Faculty Login
+University Policies
+University Policies
+University Policies
+Close
+
+menu Home About Us Future students Academics Research Administration MyULAB URMS ULAB Moodle Library A–Z Visitors Degrees Offered Faculty Search
+menu
+menu
+menu
+Home About Us Future students Academics Research Administration MyULAB URMS ULAB Moodle Library A–Z Visitors Degrees Offered Faculty Search
+
+
+
+
+
+
+
+Home About Us Future students Academics Research Administration MyULAB URMS ULAB Moodle Library A–Z Visitors Degrees Offered Faculty Search
+Home About Us Future students Academics Research Administration MyULAB URMS ULAB Moodle Library A–Z Visitors Degrees Offered Faculty Search
+Home About Us Future students Academics Research Administration MyULAB
+Home About Us Future students Academics Research Administration MyULAB
+Home About Us Future students Academics Research Administration MyULAB
+Home
+Home
+About Us
+About Us
+Future students
+Future students
+Academics
+Academics
+Research
+Research
+Administration
+Administration
+MyULAB
+MyULAB
+URMS ULAB Moodle Library A–Z Visitors Degrees Offered Faculty Search
+URMS ULAB Moodle Library A–Z Visitors Degrees Offered Faculty Search
+URMS ULAB Moodle Library A–Z Visitors Degrees Offered Faculty Search
+URMS
+URMS
+ULAB Moodle
+ULAB Moodle
+Library
+Library
+A–Z
+A–Z
+Visitors
+Visitors
+Degrees Offered
+Degrees Offered
+Faculty Search
+Faculty Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News On Campus Comics, Self-defense, Reproductive Health & Drama to Celebrate the IWD 2018 at ULAB MSJ holds freshers’ orientation for Spring 2018 Dhaka International Mobile Film Festival held at ULAB Radio Cambuzz celebrates ‘World Radio Day’ Workshop on Sound, Stress, & Intonation conducted by ULAB Language Club Creative Writing Certificate Workshop concludes DEH Orientation Spring 2018 Boshonto Utshob & Club Day Spring 2018 View All
+News On Campus Comics, Self-defense, Reproductive Health & Drama to Celebrate the IWD 2018 at ULAB MSJ holds freshers’ orientation for Spring 2018 Dhaka International Mobile Film Festival held at ULAB Radio Cambuzz celebrates ‘World Radio Day’ Workshop on Sound, Stress, & Intonation conducted by ULAB Language Club Creative Writing Certificate Workshop concludes DEH Orientation Spring 2018 Boshonto Utshob & Club Day Spring 2018 View All
+News On Campus
+News On Campus
+News On Campus
+Comics, Self-defense, Reproductive Health & Drama to Celebrate the IWD 2018 at ULAB MSJ holds freshers’ orientation for Spring 2018 Dhaka International Mobile Film Festival held at ULAB Radio Cambuzz celebrates ‘World Radio Day’ Workshop on Sound, Stress, & Intonation conducted by ULAB Language Club Creative Writing Certificate Workshop concludes DEH Orientation Spring 2018 Boshonto Utshob & Club Day Spring 2018 View All
+Comics, Self-defense, Reproductive Health & Drama to Celebrate the IWD 2018 at ULAB MSJ holds freshers’ orientation for Spring 2018 Dhaka International Mobile Film Festival held at ULAB Radio Cambuzz celebrates ‘World Radio Day’ Workshop on Sound, Stress, & Intonation conducted by ULAB Language Club Creative Writing Certificate Workshop concludes DEH Orientation Spring 2018 Boshonto Utshob & Club Day Spring 2018 View All
+Comics, Self-defense, Reproductive Health & Drama to Celebrate the IWD 2018 at ULAB MSJ holds freshers’ orientation for Spring 2018 Dhaka International Mobile Film Festival held at ULAB Radio Cambuzz celebrates ‘World Radio Day’ Workshop on Sound, Stress, & Intonation conducted by ULAB Language Club Creative Writing Certificate Workshop concludes DEH Orientation Spring 2018 Boshonto Utshob & Club Day Spring 2018
+Comics, Self-defense, Reproductive Health & Drama to Celebrate the IWD 2018 at ULAB
+
+
+Comics, Self-defense, Reproductive Health & Drama to Celebrate the IWD 2018 at ULAB
+Comics, Self-defense, Reproductive Health & Drama to Celebrate the IWD 2018 at ULAB
+MSJ holds freshers’ orientation for Spring 2018
+
+MSJ holds freshers’ orientation for Spring 2018
+MSJ holds freshers’ orientation for Spring 2018
+Dhaka International Mobile Film Festival held at ULAB
+
+
+Dhaka International Mobile Film Festival held at ULAB
+Dhaka International Mobile Film Festival held at ULAB
+Radio Cambuzz celebrates ‘World Radio Day’
+
+
+Radio Cambuzz celebrates ‘World Radio Day’
+Radio Cambuzz celebrates ‘World Radio Day’
+Workshop on Sound, Stress, & Intonation conducted by ULAB Language Club
+
+
+Workshop on Sound, Stress, & Intonation conducted by ULAB Language Club
+Workshop on Sound, Stress, & Intonation conducted by ULAB Language Club
+Creative Writing Certificate Workshop concludes
+
+
+Creative Writing Certificate Workshop concludes
+Creative Writing Certificate Workshop concludes
+DEH Orientation Spring 2018
+
+
+DEH Orientation Spring 2018
+DEH Orientation Spring 2018
+Boshonto Utshob & Club Day Spring 2018
+
+
+Boshonto Utshob & Club Day Spring 2018
+Boshonto Utshob & Club Day Spring 2018
+View All
+Special Notice Summer 2018 Admission is now open Test date: Friday, 20 April 2018 (Graduate) & Saturday, 21 April 2018 (Undergraduate) Time: 3:00 PM Notice Board Holiday – Bangla New Year Saturday, 14 April 2018 ULAB is offering Minor courses in Sustainable Development Studies starting Summer 2018 Get to join the courses and sharpen your abilities for new career opportunities! Schedule of Shuttle (Bus) Services Bus Services to go to Permanent Campus Notice Board Research Centers Center for Language Studies CLS aims to improve the quality of English language learning and teaching at the ULAB. Center for Sustainable Development The University of Liberal Arts Bangladesh (ULAB) believes in working towards sustainable development practices in Center for Enterprise & Society The University of Liberal Arts Bangladesh’s Center for Enterprise and Society (CES) seeks to advance understanding of the opportunities and challenges Center for Archaeological Studies ULAB Professor and Archaeologist Dr. Shahnaj Husne Jahan has obtained permission from the Department of Archaeology Bengal Lights bengal lights is a literary journal published from dhaka, bangladesh. our tastes are cosmopolitan: no location, no writer, no genre is off-limits. we welcome all writers Dhaka Translation Center The Dhaka Translation Center (DTC) celebrates the rich Bangladeshi literary tradition by encouraging a greater exchange with contemporary world literature. Center for Bangla Studies The aims and objects of the Center are to undertake research and publication of various aspects of the Bengali Language and Literature. Center for Advanced Theory (CAT) The aims and objectives of the Center are to undertake research and publication of various aspects of the advanced theory. Center for Excellence in Teaching and Learning (CETL) CETL is a full fledged center established primarily for developing and implementing quality teaching practices for the faculty and staff.
+Special Notice Summer 2018 Admission is now open Test date: Friday, 20 April 2018 (Graduate) & Saturday, 21 April 2018 (Undergraduate) Time: 3:00 PM Notice Board Holiday – Bangla New Year Saturday, 14 April 2018 ULAB is offering Minor courses in Sustainable Development Studies starting Summer 2018 Get to join the courses and sharpen your abilities for new career opportunities! Schedule of Shuttle (Bus) Services Bus Services to go to Permanent Campus Notice Board Research Centers Center for Language Studies CLS aims to improve the quality of English language learning and teaching at the ULAB. Center for Sustainable Development The University of Liberal Arts Bangladesh (ULAB) believes in working towards sustainable development practices in Center for Enterprise & Society The University of Liberal Arts Bangladesh’s Center for Enterprise and Society (CES) seeks to advance understanding of the opportunities and challenges Center for Archaeological Studies ULAB Professor and Archaeologist Dr. Shahnaj Husne Jahan has obtained permission from the Department of Archaeology Bengal Lights bengal lights is a literary journal published from dhaka, bangladesh. our tastes are cosmopolitan: no location, no writer, no genre is off-limits. we welcome all writers Dhaka Translation Center The Dhaka Translation Center (DTC) celebrates the rich Bangladeshi literary tradition by encouraging a greater exchange with contemporary world literature. Center for Bangla Studies The aims and objects of the Center are to undertake research and publication of various aspects of the Bengali Language and Literature. Center for Advanced Theory (CAT) The aims and objectives of the Center are to undertake research and publication of various aspects of the advanced theory. Center for Excellence in Teaching and Learning (CETL) CETL is a full fledged center established primarily for developing and implementing quality teaching practices for the faculty and staff.
+Special Notice Summer 2018 Admission is now open Test date: Friday, 20 April 2018 (Graduate) & Saturday, 21 April 2018 (Undergraduate) Time: 3:00 PM
+Special Notice Summer 2018 Admission is now open Test date: Friday, 20 April 2018 (Graduate) & Saturday, 21 April 2018 (Undergraduate) Time: 3:00 PM
+Special Notice Summer 2018 Admission is now open Test date: Friday, 20 April 2018 (Graduate) & Saturday, 21 April 2018 (Undergraduate) Time: 3:00 PM
+Special Notice
+Special Notice
+Summer 2018 Admission is now open Test date: Friday, 20 April 2018 (Graduate) & Saturday, 21 April 2018 (Undergraduate) Time: 3:00 PM
+
+Summer 2018 Admission is now open
+Summer 2018 Admission is now open
+Test date: Friday, 20 April 2018 (Graduate) & Saturday, 21 April 2018 (Undergraduate) Time: 3:00 PM
+Test date: Friday, 20 April 2018 (Graduate) & Saturday, 21 April 2018 (Undergraduate) Time: 3:00 PM
+
+Notice Board Holiday – Bangla New Year Saturday, 14 April 2018 ULAB is offering Minor courses in Sustainable Development Studies starting Summer 2018 Get to join the courses and sharpen your abilities for new career opportunities! Schedule of Shuttle (Bus) Services Bus Services to go to Permanent Campus Notice Board Research Centers Center for Language Studies CLS aims to improve the quality of English language learning and teaching at the ULAB. Center for Sustainable Development The University of Liberal Arts Bangladesh (ULAB) believes in working towards sustainable development practices in Center for Enterprise & Society The University of Liberal Arts Bangladesh’s Center for Enterprise and Society (CES) seeks to advance understanding of the opportunities and challenges Center for Archaeological Studies ULAB Professor and Archaeologist Dr. Shahnaj Husne Jahan has obtained permission from the Department of Archaeology Bengal Lights bengal lights is a literary journal published from dhaka, bangladesh. our tastes are cosmopolitan: no location, no writer, no genre is off-limits. we welcome all writers Dhaka Translation Center The Dhaka Translation Center (DTC) celebrates the rich Bangladeshi literary tradition by encouraging a greater exchange with contemporary world literature. Center for Bangla Studies The aims and objects of the Center are to undertake research and publication of various aspects of the Bengali Language and Literature. Center for Advanced Theory (CAT) The aims and objectives of the Center are to undertake research and publication of various aspects of the advanced theory. Center for Excellence in Teaching and Learning (CETL) CETL is a full fledged center established primarily for developing and implementing quality teaching practices for the faculty and staff.
+Notice Board Holiday – Bangla New Year Saturday, 14 April 2018 ULAB is offering Minor courses in Sustainable Development Studies starting Summer 2018 Get to join the courses and sharpen your abilities for new career opportunities! Schedule of Shuttle (Bus) Services Bus Services to go to Permanent Campus Notice Board
+Notice Board
+Holiday – Bangla New Year Saturday, 14 April 2018
+Holiday – Bangla New Year
+Holiday – Bangla New Year
+Saturday, 14 April 2018
+ULAB is offering Minor courses in Sustainable Development Studies starting Summer 2018 Get to join the courses and sharpen your abilities for new career opportunities!
+ULAB is offering Minor courses in Sustainable Development Studies starting Summer 2018
+ULAB is offering Minor courses in Sustainable Development Studies starting Summer 2018
+Get to join the courses and sharpen your abilities for new career opportunities!
+Schedule of Shuttle (Bus) Services Bus Services to go to Permanent Campus
+Schedule of Shuttle (Bus) Services
+Schedule of Shuttle (Bus) Services
+Bus Services to go to Permanent Campus
+Notice Board
+Research Centers Center for Language Studies CLS aims to improve the quality of English language learning and teaching at the ULAB. Center for Sustainable Development The University of Liberal Arts Bangladesh (ULAB) believes in working towards sustainable development practices in Center for Enterprise & Society The University of Liberal Arts Bangladesh’s Center for Enterprise and Society (CES) seeks to advance understanding of the opportunities and challenges Center for Archaeological Studies ULAB Professor and Archaeologist Dr. Shahnaj Husne Jahan has obtained permission from the Department of Archaeology Bengal Lights bengal lights is a literary journal published from dhaka, bangladesh. our tastes are cosmopolitan: no location, no writer, no genre is off-limits. we welcome all writers Dhaka Translation Center The Dhaka Translation Center (DTC) celebrates the rich Bangladeshi literary tradition by encouraging a greater exchange with contemporary world literature. Center for Bangla Studies The aims and objects of the Center are to undertake research and publication of various aspects of the Bengali Language and Literature. Center for Advanced Theory (CAT) The aims and objectives of the Center are to undertake research and publication of various aspects of the advanced theory. Center for Excellence in Teaching and Learning (CETL) CETL is a full fledged center established primarily for developing and implementing quality teaching practices for the faculty and staff.
+Research Centers
+Center for Language Studies CLS aims to improve the quality of English language learning and teaching at the ULAB. Center for Sustainable Development The University of Liberal Arts Bangladesh (ULAB) believes in working towards sustainable development practices in Center for Enterprise & Society The University of Liberal Arts Bangladesh’s Center for Enterprise and Society (CES) seeks to advance understanding of the opportunities and challenges Center for Archaeological Studies ULAB Professor and Archaeologist Dr. Shahnaj Husne Jahan has obtained permission from the Department of Archaeology Bengal Lights bengal lights is a literary journal published from dhaka, bangladesh. our tastes are cosmopolitan: no location, no writer, no genre is off-limits. we welcome all writers Dhaka Translation Center The Dhaka Translation Center (DTC) celebrates the rich Bangladeshi literary tradition by encouraging a greater exchange with contemporary world literature. Center for Bangla Studies The aims and objects of the Center are to undertake research and publication of various aspects of the Bengali Language and Literature. Center for Advanced Theory (CAT) The aims and objectives of the Center are to undertake research and publication of various aspects of the advanced theory. Center for Excellence in Teaching and Learning (CETL) CETL is a full fledged center established primarily for developing and implementing quality teaching practices for the faculty and staff.
+Center for Language Studies CLS aims to improve the quality of English language learning and teaching at the ULAB.
+
+
+Center for Language Studies
+Center for Language Studies
+CLS aims to improve the quality of English language learning and teaching at the ULAB.
+
+Center for Sustainable Development The University of Liberal Arts Bangladesh (ULAB) believes in working towards sustainable development practices in
+
+
+Center for Sustainable Development
+Center for Sustainable Development
+The University of Liberal Arts Bangladesh (ULAB) believes in working towards sustainable development practices in
+
+Center for Enterprise & Society The University of Liberal Arts Bangladesh’s Center for Enterprise and Society (CES) seeks to advance understanding of the opportunities and challenges
+
+
+Center for Enterprise & Society
+Center for Enterprise & Society
+The University of Liberal Arts Bangladesh’s Center for Enterprise and Society (CES) seeks to advance understanding of the opportunities and challenges
+
+Center for Archaeological Studies ULAB Professor and Archaeologist Dr. Shahnaj Husne Jahan has obtained permission from the Department of Archaeology
+
+
+Center for Archaeological Studies
+Center for Archaeological Studies
+ULAB Professor and Archaeologist Dr. Shahnaj Husne Jahan has obtained permission from the Department of Archaeology
+
+Bengal Lights bengal lights is a literary journal published from dhaka, bangladesh. our tastes are cosmopolitan: no location, no writer, no genre is off-limits. we welcome all writers
+
+
+Bengal Lights
+Bengal Lights
+bengal lights is a literary journal published from dhaka, bangladesh. our tastes are cosmopolitan: no location, no writer, no genre is off-limits. we welcome all writers
+
+Dhaka Translation Center The Dhaka Translation Center (DTC) celebrates the rich Bangladeshi literary tradition by encouraging a greater exchange with contemporary world literature.
+
+
+Dhaka Translation Center
+Dhaka Translation Center
+The Dhaka Translation Center (DTC) celebrates the rich Bangladeshi literary tradition by encouraging a greater exchange with contemporary world literature.
+
+Center for Bangla Studies The aims and objects of the Center are to undertake research and publication of various aspects of the Bengali Language and Literature.
+
+
+Center for Bangla Studies
+Center for Bangla Studies
+The aims and objects of the Center are to undertake research and publication of various aspects of the Bengali Language and Literature.
+
+Center for Advanced Theory (CAT) The aims and objectives of the Center are to undertake research and publication of various aspects of the advanced theory.
+
+
+Center for Advanced Theory (CAT)
+Center for Advanced Theory (CAT)
+The aims and objectives of the Center are to undertake research and publication of various aspects of the advanced theory.
+
+Center for Excellence in Teaching and Learning (CETL) CETL is a full fledged center established primarily for developing and implementing quality teaching practices for the faculty and staff.
+
+
+Center for Excellence in Teaching and Learning (CETL)
+Center for Excellence in Teaching and Learning (CETL)
+CETL is a full fledged center established primarily for developing and implementing quality teaching practices for the faculty and staff.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Events Apr14 Boishakhi Mela – Bangla Naboborsho 1425 @ 7:00 am - 11:00 am Apr20 200 Years of the Brontes: 4th Inter-University Students’ Conference Apr 20 - 20 View All Events Quick Links Future Students ULAB Prospectus Clubs Sports
+Events Apr14 Boishakhi Mela – Bangla Naboborsho 1425 @ 7:00 am - 11:00 am Apr20 200 Years of the Brontes: 4th Inter-University Students’ Conference Apr 20 - 20 View All Events Quick Links Future Students ULAB Prospectus Clubs Sports
+Events Apr14 Boishakhi Mela – Bangla Naboborsho 1425 @ 7:00 am - 11:00 am Apr20 200 Years of the Brontes: 4th Inter-University Students’ Conference Apr 20 - 20 View All Events Quick Links Future Students ULAB Prospectus Clubs Sports
+Events Apr14 Boishakhi Mela – Bangla Naboborsho 1425 @ 7:00 am - 11:00 am Apr20 200 Years of the Brontes: 4th Inter-University Students’ Conference Apr 20 - 20 View All Events
+Events Apr14 Boishakhi Mela – Bangla Naboborsho 1425 @ 7:00 am - 11:00 am Apr20 200 Years of the Brontes: 4th Inter-University Students’ Conference Apr 20 - 20 View All Events
+Events
+Apr14 Boishakhi Mela – Bangla Naboborsho 1425 @ 7:00 am - 11:00 am Apr20 200 Years of the Brontes: 4th Inter-University Students’ Conference Apr 20 - 20
+Apr14 Boishakhi Mela – Bangla Naboborsho 1425 @ 7:00 am - 11:00 am
+Apr14
+Apr
+14
+Boishakhi Mela – Bangla Naboborsho 1425 @ 7:00 am - 11:00 am
+Boishakhi Mela – Bangla Naboborsho 1425
+Boishakhi Mela – Bangla Naboborsho 1425
+@ 7:00 am - 11:00 am
+@ 7:00 am
+
+11:00 am
+
+Apr20 200 Years of the Brontes: 4th Inter-University Students’ Conference Apr 20 - 20
+Apr20
+Apr
+
+20
+20
+
+200 Years of the Brontes: 4th Inter-University Students’ Conference Apr 20 - 20
+200 Years of the Brontes: 4th Inter-University Students’ Conference
+200 Years of the Brontes: 4th Inter-University Students’ Conference
+Apr 20 - 20
+Apr 20
+
+20
+20
+
+View All Events
+View All Events
+
+
+Quick Links Future Students ULAB Prospectus Clubs Sports
+Quick Links
+Future Students ULAB Prospectus
+Future Students
+Future Students
+Future Students
+
+Future Students
+ULAB Prospectus
+ULAB Prospectus
+ULAB Prospectus
+
+ULAB Prospectus
+Clubs Sports
+Clubs
+Clubs
+Clubs
+
+Clubs
+Sports
+Sports
+Sports
+
+Sports
+
+
+
+
+
+
+
+
+Schools Arts & Humanities Business Science & Engineering Social Science Departments Departments A-Z Programs Research Research Centers Office of Faculty Research Publications Admission Undergraduate Graduate Financial Aid Prospectus Quick Links A-Z Index Directory History Giving Quick Links Apply Online Jobs at ULAB Contact Us Address House 56, Rd 4/A @ Satmasjid Road Dhanmondi, Dhaka-1209, Bangladesh Mobile: 01730-082197, 01713-091936, 01714-161613. Phone: 966-1255 Fax: +88-02-9660610 Location Map
+Schools Arts & Humanities Business Science & Engineering Social Science Departments Departments A-Z Programs Research Research Centers Office of Faculty Research Publications Admission Undergraduate Graduate Financial Aid Prospectus Quick Links A-Z Index Directory History Giving Quick Links Apply Online Jobs at ULAB Contact Us Address House 56, Rd 4/A @ Satmasjid Road Dhanmondi, Dhaka-1209, Bangladesh Mobile: 01730-082197, 01713-091936, 01714-161613. Phone: 966-1255 Fax: +88-02-9660610 Location Map
+Schools Arts & Humanities Business Science & Engineering Social Science Departments Departments A-Z Programs Research Research Centers Office of Faculty Research Publications Admission Undergraduate Graduate Financial Aid Prospectus Quick Links A-Z Index Directory History Giving Quick Links Apply Online Jobs at ULAB Contact Us
+Schools Arts & Humanities Business Science & Engineering Social Science
+Schools
+Arts & Humanities Business Science & Engineering Social Science
+Arts & Humanities
+Arts & Humanities
+Business
+Business
+Science & Engineering
+Science & Engineering
+Social Science
+Social Science
+Departments Departments A-Z Programs
+Departments
+Departments A-Z Programs
+Departments A-Z
+Departments A-Z
+Programs
+Programs
+Research Research Centers Office of Faculty Research Publications
+Research
+Research Centers Office of Faculty Research Publications
+Research Centers
+Research Centers
+Office of Faculty Research
+Office of Faculty Research
+Publications
+Publications
+Admission Undergraduate Graduate Financial Aid Prospectus
+Admission
+Undergraduate Graduate Financial Aid Prospectus
+Undergraduate
+Undergraduate
+Graduate
+Graduate
+Financial Aid
+Financial Aid
+Prospectus
+Prospectus
+Quick Links A-Z Index Directory History Giving
+Quick Links
+A-Z Index Directory History Giving
+A-Z Index
+A-Z Index
+Directory
+Directory
+History
+History
+Giving
+Giving
+Quick Links Apply Online Jobs at ULAB Contact Us
+Quick Links
+Apply Online
+Jobs at ULAB
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Address House 56, Rd 4/A @ Satmasjid Road Dhanmondi, Dhaka-1209, Bangladesh Mobile: 01730-082197, 01713-091936, 01714-161613. Phone: 966-1255 Fax: +88-02-9660610 Location Map
+Address House 56, Rd 4/A @ Satmasjid Road Dhanmondi, Dhaka-1209, Bangladesh Mobile: 01730-082197, 01713-091936, 01714-161613. Phone: 966-1255 Fax: +88-02-9660610 Location Map
+
+
+Address House 56, Rd 4/A @ Satmasjid Road Dhanmondi, Dhaka-1209, Bangladesh Mobile: 01730-082197, 01713-091936, 01714-161613. Phone: 966-1255 Fax: +88-02-9660610
+Address
+House 56, Rd 4/A @ Satmasjid Road Dhanmondi, Dhaka-1209, Bangladesh
+Mobile: 01730-082197, 01713-091936, 01714-161613. Phone: 966-1255 Fax: +88-02-9660610
+
+Location Map
+Location Map
+
+
+
+The University of Liberal Arts Bangladesh and its curricula are accredited by the University Grants Commission (UGC) of Bangladesh, and approved by the Ministry of Education, Government of People's Republic of Bangladesh. © 2006-2018 UNIVERSITY OF LIBERAL ARTS BANGLADESH All Rights Reserved Terms of Use Privacy Policy
+The University of Liberal Arts Bangladesh and its curricula are accredited by the University Grants Commission (UGC) of Bangladesh, and approved by the Ministry of Education, Government of People's Republic of Bangladesh. © 2006-2018 UNIVERSITY OF LIBERAL ARTS BANGLADESH All Rights Reserved Terms of Use Privacy Policy
+The University of Liberal Arts Bangladesh and its curricula are accredited by the University Grants Commission (UGC) of Bangladesh, and approved by the Ministry of Education, Government of People's Republic of Bangladesh.
+The University of Liberal Arts Bangladesh and its curricula are accredited by the University Grants Commission (UGC) of Bangladesh, and approved by the Ministry of Education, Government of People's Republic of Bangladesh.
+The University of Liberal Arts Bangladesh and its curricula are accredited by the University Grants Commission (UGC) of Bangladesh, and approved by the Ministry of Education, Government of People's Republic of Bangladesh.
+The University of Liberal Arts Bangladesh and its curricula are accredited by the University Grants Commission (UGC) of Bangladesh, and approved by the Ministry of Education, Government of People's Republic of Bangladesh.
+© 2006-2018 UNIVERSITY OF LIBERAL ARTS BANGLADESH All Rights Reserved Terms of Use Privacy Policy
+© 2006-2018 UNIVERSITY OF LIBERAL ARTS BANGLADESH All Rights Reserved
+© 2006-2018 UNIVERSITY OF LIBERAL ARTS BANGLADESH All Rights Reserved
+Terms of Use Privacy Policy
+Terms of Use Privacy Policy
+Terms of Use Privacy Policy
+Terms of Use
+Terms of Use
+Privacy Policy
+Privacy Policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

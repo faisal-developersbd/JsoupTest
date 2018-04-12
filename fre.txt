@@ -1,0 +1,1667 @@
+java - Reading a File Containing Words in Order to Count its Frequency - Stack Overflow Stack Overflow Questions Developer Jobs Tags Users current community help chat Stack Overflow Meta Stack Overflow your communities Sign up or log in to customize your list. more stack exchange communities company blog Tour Start here for a quick overview of the site Help Center Detailed answers to any questions you might have Meta Discuss the workings and policies of this site About Us Learn more about Stack Overflow the company Business Learn more about hiring developers or posting ads with us Log In Sign Up Join Stack Overflow to learn, share knowledge, and build your career. Email Sign Up or sign in with Google Facebook Reading a File Containing Words in Order to Count its Frequency Ask Question up vote -1 down vote favorite I am working on a program that will read a file in order to find the frequency of words. I have to create a void method that will read the file of unique words to count it. I am completely new to Java. I have been reading my textbook and other online sources in order to understand the concept/process of reading a file for this specific purpose, but I am still struggling to implement the logic of it. I'd like to know what I am missing/or doing wrong that prevents me from reading the file to count the frequency of words. Here is my code: [This is a part of my code. The other methods(such as the method for sorting the frequency and getting the output) are also within the same class - not included here.] import java.io.*;
+import java.util.*;
+
+
+public class CountingFrequencyOfWords
+{
+       int frequency  [] = new int [999];
+       String words []  = new String [999];
+
+
+       int uniqueCount = 0;
+       int count_Word= 0;
+
+
+       public void methodForInput() throws Exception
+       {
+
+             File file = new File("file.txt");
+             Scanner input = new Scanner(file);
+
+             String x;
+             int i = 0;
+
+             while(input.hasNext())
+             {
+
+                   x = input.next();
+                   count_Word[i] = x;
+                   i =  i + 1;
+
+
+                   if (i == uniqueCount)
+                   {
+
+                         uniqueCount[i] = x;
+                         uniqueCount = uniqueCount + 1;
+                   }
+
+                   frequency[i] = frequency[i] + 1;
+
+             }
+
+
+        }
+
+}
+ java file-io frequency share|improve this question edited Sep 30 '14 at 17:07 Tshepang 5,6471568110 asked May 15 '14 at 2:06 Charlotte.P 11 Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10 @DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13 OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15 @DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23 @Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30 | show 8 more comments 2 Answers 2 active oldest votes up vote 0 down vote Well I cant tell you now that count_Word and uniqueCount are not arrays so count_word[i] and uniqueCount[i] will screw you up. And x is a String so adding it to the int variables you'll get exceptions thrown. other than that i think your reading the file is fine. share|improve this answer answered May 15 '14 at 2:58 MGHandy 180210 add a comment | up vote 0 down vote it...is very very very necessary to use try & catch block for your methodForInput() function because in the declaration of your methodForInput() function you have thrown an Exception public void methodForInput() throws Exception ...so now you have to catch this exception where you call your function if it is thrown during the execution of program......here is the block of code: try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+ don't worry if exception is not thrown...if no exception occur then code run without any problem if exception occur then it will be displayed by System.out.println(e);........I think it may help you..& don't forget to make methodForInput() method as static.....good luck... share|improve this answer edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286 answered May 15 '14 at 3:15 Ankit 1287 add a comment | Your Answer draft saved draft discarded Sign up or log in Sign up using Google Sign up using Facebook Sign up using Email and Password Post as a guest Name Email Post as a guest Name Email discard By posting your answer, you agree to the privacy policy and terms of service. Not the answer you're looking for? Browse other questions tagged java file-io frequency or ask your own question. asked 3 years, 10 months ago viewed 833 times active 3 years, 6 months ago Visit Chat Related 759Reading a plain text file in Java 0Writing to File in Java: output displays differently in NotePad vs. Word/WordPad/NotePad++ 638How to read a large text file line by line using Java? 430Read file line by line 0extract words from file, then count frequency 0Read file, and process words with Word class, method -3Count words from input file 0Java Chat P2P Code Suggestion/Guidance 0Counting frequency of words from a .txt file in java -6I/P-a string S.O/P: For each digit start from 0-9,print count of their occurrence in S.Print10 lines,each line contain 2 space separated integers Hot Network Questions Would earthlike planets in other solar systems have well-known Earth gemstones such as rubies, emeralds and sapphires? Why is melting point independent of external pressure? What is "spilling the beans"? A proverb? A phrase? ...? How avoid a question about women being loyal housewives? Bash word count for sequence length is wrong Why is faith seen as a sign of weakness, instead of an unexplored land/opportunity? How to type two statements side by side with an iff between them Temperature unit conversion (C,F,K) in C++ - follow-up Some authors can use variants of their last names in two different publications. How does one write their last name when citing both inline? Why has Israel not expelled Russian diplomats in response to the Skripal poisoning? Is it permitted to bring bottled water from an outside source into a kosher dining hall? Interpretation of the butterfly effect How to ask someone on a date when dating is untraditional? Average Value not working How would a lunar colony defend itself against aggression from Earth? Are apt-file and apt-cache part of apt? How High is a High Jump? Zero-sum counting Do sounds from different musical instrument merge together into one wave? Are LEDs better than we think? How would a Crystalline species send a probe into space? Difficulty in designing an undetectable nuke to hit the Moon Tea water: heat to 80°C or boil to 100°C and let it cool down to 80°C? Pi got your number more hot questions question feed lang-java Stack Overflow Questions Jobs Developer Jobs Directory Salary Calculator Help Mobile Stack Overflow Business Talent Ads Enterprise Company About Press Work Here Legal Privacy Policy Contact Us Stack Exchange Network Technology Life / Arts Culture / Recreation Science Other Stack Overflow Server Fault Super User Web Applications Ask Ubuntu Webmasters Game Development TeX - LaTeX Software Engineering Unix & Linux Ask Different (Apple) WordPress Development Geographic Information Systems Electrical Engineering Android Enthusiasts Information Security Database Administrators Drupal Answers SharePoint User Experience Mathematica Salesforce ExpressionEngine® Answers Stack Overflow em Português Blender Network Engineering Cryptography Code Review Magento Software Recommendations Signal Processing Emacs Raspberry Pi Stack Overflow на русском Programming Puzzles & Code Golf Stack Overflow en español Ethereum Data Science Arduino Bitcoin more (28) Photography Science Fiction & Fantasy Graphic Design Movies & TV Music: Practice & Theory Worldbuilding Seasoned Advice (cooking) Home Improvement Personal Finance & Money Academia Law more (15) English Language & Usage Skeptics Mi Yodeya (Judaism) Travel Christianity English Language Learners Japanese Language Arqade (gaming) Bicycles Role-playing Games Anime & Manga Puzzling Motor Vehicle Maintenance & Repair more (33) MathOverflow Mathematics Cross Validated (stats) Theoretical Computer Science Physics Chemistry Biology Computer Science Philosophy more (10) Meta Stack Exchange Stack Apps API Data Area 51 Blog Facebook Twitter LinkedIn site design / logo © 2018 Stack Exchange Inc; user contributions licensed under cc by-sa 3.0 with attribution required. rev 2018.4.2.29701 Stack Overflow works best with JavaScript enabled
+java - Reading a File Containing Words in Order to Count its Frequency - Stack Overflow Stack Overflow Questions Developer Jobs Tags Users current community help chat Stack Overflow Meta Stack Overflow your communities Sign up or log in to customize your list. more stack exchange communities company blog Tour Start here for a quick overview of the site Help Center Detailed answers to any questions you might have Meta Discuss the workings and policies of this site About Us Learn more about Stack Overflow the company Business Learn more about hiring developers or posting ads with us Log In Sign Up Join Stack Overflow to learn, share knowledge, and build your career. Email Sign Up or sign in with Google Facebook Reading a File Containing Words in Order to Count its Frequency Ask Question up vote -1 down vote favorite I am working on a program that will read a file in order to find the frequency of words. I have to create a void method that will read the file of unique words to count it. I am completely new to Java. I have been reading my textbook and other online sources in order to understand the concept/process of reading a file for this specific purpose, but I am still struggling to implement the logic of it. I'd like to know what I am missing/or doing wrong that prevents me from reading the file to count the frequency of words. Here is my code: [This is a part of my code. The other methods(such as the method for sorting the frequency and getting the output) are also within the same class - not included here.] import java.io.*;
+import java.util.*;
+
+
+public class CountingFrequencyOfWords
+{
+       int frequency  [] = new int [999];
+       String words []  = new String [999];
+
+
+       int uniqueCount = 0;
+       int count_Word= 0;
+
+
+       public void methodForInput() throws Exception
+       {
+
+             File file = new File("file.txt");
+             Scanner input = new Scanner(file);
+
+             String x;
+             int i = 0;
+
+             while(input.hasNext())
+             {
+
+                   x = input.next();
+                   count_Word[i] = x;
+                   i =  i + 1;
+
+
+                   if (i == uniqueCount)
+                   {
+
+                         uniqueCount[i] = x;
+                         uniqueCount = uniqueCount + 1;
+                   }
+
+                   frequency[i] = frequency[i] + 1;
+
+             }
+
+
+        }
+
+}
+ java file-io frequency share|improve this question edited Sep 30 '14 at 17:07 Tshepang 5,6471568110 asked May 15 '14 at 2:06 Charlotte.P 11 Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10 @DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13 OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15 @DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23 @Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30 | show 8 more comments 2 Answers 2 active oldest votes up vote 0 down vote Well I cant tell you now that count_Word and uniqueCount are not arrays so count_word[i] and uniqueCount[i] will screw you up. And x is a String so adding it to the int variables you'll get exceptions thrown. other than that i think your reading the file is fine. share|improve this answer answered May 15 '14 at 2:58 MGHandy 180210 add a comment | up vote 0 down vote it...is very very very necessary to use try & catch block for your methodForInput() function because in the declaration of your methodForInput() function you have thrown an Exception public void methodForInput() throws Exception ...so now you have to catch this exception where you call your function if it is thrown during the execution of program......here is the block of code: try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+ don't worry if exception is not thrown...if no exception occur then code run without any problem if exception occur then it will be displayed by System.out.println(e);........I think it may help you..& don't forget to make methodForInput() method as static.....good luck... share|improve this answer edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286 answered May 15 '14 at 3:15 Ankit 1287 add a comment | Your Answer draft saved draft discarded Sign up or log in Sign up using Google Sign up using Facebook Sign up using Email and Password Post as a guest Name Email Post as a guest Name Email discard By posting your answer, you agree to the privacy policy and terms of service. Not the answer you're looking for? Browse other questions tagged java file-io frequency or ask your own question. asked 3 years, 10 months ago viewed 833 times active 3 years, 6 months ago Visit Chat Related 759Reading a plain text file in Java 0Writing to File in Java: output displays differently in NotePad vs. Word/WordPad/NotePad++ 638How to read a large text file line by line using Java? 430Read file line by line 0extract words from file, then count frequency 0Read file, and process words with Word class, method -3Count words from input file 0Java Chat P2P Code Suggestion/Guidance 0Counting frequency of words from a .txt file in java -6I/P-a string S.O/P: For each digit start from 0-9,print count of their occurrence in S.Print10 lines,each line contain 2 space separated integers Hot Network Questions Would earthlike planets in other solar systems have well-known Earth gemstones such as rubies, emeralds and sapphires? Why is melting point independent of external pressure? What is "spilling the beans"? A proverb? A phrase? ...? How avoid a question about women being loyal housewives? Bash word count for sequence length is wrong Why is faith seen as a sign of weakness, instead of an unexplored land/opportunity? How to type two statements side by side with an iff between them Temperature unit conversion (C,F,K) in C++ - follow-up Some authors can use variants of their last names in two different publications. How does one write their last name when citing both inline? Why has Israel not expelled Russian diplomats in response to the Skripal poisoning? Is it permitted to bring bottled water from an outside source into a kosher dining hall? Interpretation of the butterfly effect How to ask someone on a date when dating is untraditional? Average Value not working How would a lunar colony defend itself against aggression from Earth? Are apt-file and apt-cache part of apt? How High is a High Jump? Zero-sum counting Do sounds from different musical instrument merge together into one wave? Are LEDs better than we think? How would a Crystalline species send a probe into space? Difficulty in designing an undetectable nuke to hit the Moon Tea water: heat to 80°C or boil to 100°C and let it cool down to 80°C? Pi got your number more hot questions question feed lang-java Stack Overflow Questions Jobs Developer Jobs Directory Salary Calculator Help Mobile Stack Overflow Business Talent Ads Enterprise Company About Press Work Here Legal Privacy Policy Contact Us Stack Exchange Network Technology Life / Arts Culture / Recreation Science Other Stack Overflow Server Fault Super User Web Applications Ask Ubuntu Webmasters Game Development TeX - LaTeX Software Engineering Unix & Linux Ask Different (Apple) WordPress Development Geographic Information Systems Electrical Engineering Android Enthusiasts Information Security Database Administrators Drupal Answers SharePoint User Experience Mathematica Salesforce ExpressionEngine® Answers Stack Overflow em Português Blender Network Engineering Cryptography Code Review Magento Software Recommendations Signal Processing Emacs Raspberry Pi Stack Overflow на русском Programming Puzzles & Code Golf Stack Overflow en español Ethereum Data Science Arduino Bitcoin more (28) Photography Science Fiction & Fantasy Graphic Design Movies & TV Music: Practice & Theory Worldbuilding Seasoned Advice (cooking) Home Improvement Personal Finance & Money Academia Law more (15) English Language & Usage Skeptics Mi Yodeya (Judaism) Travel Christianity English Language Learners Japanese Language Arqade (gaming) Bicycles Role-playing Games Anime & Manga Puzzling Motor Vehicle Maintenance & Repair more (33) MathOverflow Mathematics Cross Validated (stats) Theoretical Computer Science Physics Chemistry Biology Computer Science Philosophy more (10) Meta Stack Exchange Stack Apps API Data Area 51 Blog Facebook Twitter LinkedIn site design / logo © 2018 Stack Exchange Inc; user contributions licensed under cc by-sa 3.0 with attribution required. rev 2018.4.2.29701 Stack Overflow works best with JavaScript enabled
+java - Reading a File Containing Words in Order to Count its Frequency - Stack Overflow
+java - Reading a File Containing Words in Order to Count its Frequency - Stack Overflow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stack Overflow Questions Developer Jobs Tags Users current community help chat Stack Overflow Meta Stack Overflow your communities Sign up or log in to customize your list. more stack exchange communities company blog Tour Start here for a quick overview of the site Help Center Detailed answers to any questions you might have Meta Discuss the workings and policies of this site About Us Learn more about Stack Overflow the company Business Learn more about hiring developers or posting ads with us Log In Sign Up Join Stack Overflow to learn, share knowledge, and build your career. Email Sign Up or sign in with Google Facebook Reading a File Containing Words in Order to Count its Frequency Ask Question up vote -1 down vote favorite I am working on a program that will read a file in order to find the frequency of words. I have to create a void method that will read the file of unique words to count it. I am completely new to Java. I have been reading my textbook and other online sources in order to understand the concept/process of reading a file for this specific purpose, but I am still struggling to implement the logic of it. I'd like to know what I am missing/or doing wrong that prevents me from reading the file to count the frequency of words. Here is my code: [This is a part of my code. The other methods(such as the method for sorting the frequency and getting the output) are also within the same class - not included here.] import java.io.*;
+import java.util.*;
+
+
+public class CountingFrequencyOfWords
+{
+       int frequency  [] = new int [999];
+       String words []  = new String [999];
+
+
+       int uniqueCount = 0;
+       int count_Word= 0;
+
+
+       public void methodForInput() throws Exception
+       {
+
+             File file = new File("file.txt");
+             Scanner input = new Scanner(file);
+
+             String x;
+             int i = 0;
+
+             while(input.hasNext())
+             {
+
+                   x = input.next();
+                   count_Word[i] = x;
+                   i =  i + 1;
+
+
+                   if (i == uniqueCount)
+                   {
+
+                         uniqueCount[i] = x;
+                         uniqueCount = uniqueCount + 1;
+                   }
+
+                   frequency[i] = frequency[i] + 1;
+
+             }
+
+
+        }
+
+}
+ java file-io frequency share|improve this question edited Sep 30 '14 at 17:07 Tshepang 5,6471568110 asked May 15 '14 at 2:06 Charlotte.P 11 Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10 @DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13 OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15 @DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23 @Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30 | show 8 more comments 2 Answers 2 active oldest votes up vote 0 down vote Well I cant tell you now that count_Word and uniqueCount are not arrays so count_word[i] and uniqueCount[i] will screw you up. And x is a String so adding it to the int variables you'll get exceptions thrown. other than that i think your reading the file is fine. share|improve this answer answered May 15 '14 at 2:58 MGHandy 180210 add a comment | up vote 0 down vote it...is very very very necessary to use try & catch block for your methodForInput() function because in the declaration of your methodForInput() function you have thrown an Exception public void methodForInput() throws Exception ...so now you have to catch this exception where you call your function if it is thrown during the execution of program......here is the block of code: try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+ don't worry if exception is not thrown...if no exception occur then code run without any problem if exception occur then it will be displayed by System.out.println(e);........I think it may help you..& don't forget to make methodForInput() method as static.....good luck... share|improve this answer edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286 answered May 15 '14 at 3:15 Ankit 1287 add a comment | Your Answer draft saved draft discarded Sign up or log in Sign up using Google Sign up using Facebook Sign up using Email and Password Post as a guest Name Email Post as a guest Name Email discard By posting your answer, you agree to the privacy policy and terms of service. Not the answer you're looking for? Browse other questions tagged java file-io frequency or ask your own question. asked 3 years, 10 months ago viewed 833 times active 3 years, 6 months ago Visit Chat Related 759Reading a plain text file in Java 0Writing to File in Java: output displays differently in NotePad vs. Word/WordPad/NotePad++ 638How to read a large text file line by line using Java? 430Read file line by line 0extract words from file, then count frequency 0Read file, and process words with Word class, method -3Count words from input file 0Java Chat P2P Code Suggestion/Guidance 0Counting frequency of words from a .txt file in java -6I/P-a string S.O/P: For each digit start from 0-9,print count of their occurrence in S.Print10 lines,each line contain 2 space separated integers Hot Network Questions Would earthlike planets in other solar systems have well-known Earth gemstones such as rubies, emeralds and sapphires? Why is melting point independent of external pressure? What is "spilling the beans"? A proverb? A phrase? ...? How avoid a question about women being loyal housewives? Bash word count for sequence length is wrong Why is faith seen as a sign of weakness, instead of an unexplored land/opportunity? How to type two statements side by side with an iff between them Temperature unit conversion (C,F,K) in C++ - follow-up Some authors can use variants of their last names in two different publications. How does one write their last name when citing both inline? Why has Israel not expelled Russian diplomats in response to the Skripal poisoning? Is it permitted to bring bottled water from an outside source into a kosher dining hall? Interpretation of the butterfly effect How to ask someone on a date when dating is untraditional? Average Value not working How would a lunar colony defend itself against aggression from Earth? Are apt-file and apt-cache part of apt? How High is a High Jump? Zero-sum counting Do sounds from different musical instrument merge together into one wave? Are LEDs better than we think? How would a Crystalline species send a probe into space? Difficulty in designing an undetectable nuke to hit the Moon Tea water: heat to 80°C or boil to 100°C and let it cool down to 80°C? Pi got your number more hot questions question feed lang-java Stack Overflow Questions Jobs Developer Jobs Directory Salary Calculator Help Mobile Stack Overflow Business Talent Ads Enterprise Company About Press Work Here Legal Privacy Policy Contact Us Stack Exchange Network Technology Life / Arts Culture / Recreation Science Other Stack Overflow Server Fault Super User Web Applications Ask Ubuntu Webmasters Game Development TeX - LaTeX Software Engineering Unix & Linux Ask Different (Apple) WordPress Development Geographic Information Systems Electrical Engineering Android Enthusiasts Information Security Database Administrators Drupal Answers SharePoint User Experience Mathematica Salesforce ExpressionEngine® Answers Stack Overflow em Português Blender Network Engineering Cryptography Code Review Magento Software Recommendations Signal Processing Emacs Raspberry Pi Stack Overflow на русском Programming Puzzles & Code Golf Stack Overflow en español Ethereum Data Science Arduino Bitcoin more (28) Photography Science Fiction & Fantasy Graphic Design Movies & TV Music: Practice & Theory Worldbuilding Seasoned Advice (cooking) Home Improvement Personal Finance & Money Academia Law more (15) English Language & Usage Skeptics Mi Yodeya (Judaism) Travel Christianity English Language Learners Japanese Language Arqade (gaming) Bicycles Role-playing Games Anime & Manga Puzzling Motor Vehicle Maintenance & Repair more (33) MathOverflow Mathematics Cross Validated (stats) Theoretical Computer Science Physics Chemistry Biology Computer Science Philosophy more (10) Meta Stack Exchange Stack Apps API Data Area 51 Blog Facebook Twitter LinkedIn site design / logo © 2018 Stack Exchange Inc; user contributions licensed under cc by-sa 3.0 with attribution required. rev 2018.4.2.29701 Stack Overflow works best with JavaScript enabled
+
+
+
+Stack Overflow Questions Developer Jobs Tags Users current community help chat Stack Overflow Meta Stack Overflow your communities Sign up or log in to customize your list. more stack exchange communities company blog Tour Start here for a quick overview of the site Help Center Detailed answers to any questions you might have Meta Discuss the workings and policies of this site About Us Learn more about Stack Overflow the company Business Learn more about hiring developers or posting ads with us Log In Sign Up
+Stack Overflow Questions Developer Jobs Tags Users current community help chat Stack Overflow Meta Stack Overflow your communities Sign up or log in to customize your list. more stack exchange communities company blog Tour Start here for a quick overview of the site Help Center Detailed answers to any questions you might have Meta Discuss the workings and policies of this site About Us Learn more about Stack Overflow the company Business Learn more about hiring developers or posting ads with us Log In Sign Up
+Stack Overflow Questions Developer Jobs Tags Users
+Stack Overflow
+Stack Overflow
+Questions Developer Jobs Tags Users
+Questions Developer Jobs Tags Users
+Questions
+Questions
+Developer Jobs
+Developer Jobs
+Tags
+Tags
+Users
+Users
+
+
+
+
+
+current community help chat Stack Overflow Meta Stack Overflow your communities Sign up or log in to customize your list. more stack exchange communities company blog Tour Start here for a quick overview of the site Help Center Detailed answers to any questions you might have Meta Discuss the workings and policies of this site About Us Learn more about Stack Overflow the company Business Learn more about hiring developers or posting ads with us Log In Sign Up
+current community help chat Stack Overflow Meta Stack Overflow your communities Sign up or log in to customize your list. more stack exchange communities company blog Tour Start here for a quick overview of the site Help Center Detailed answers to any questions you might have Meta Discuss the workings and policies of this site About Us Learn more about Stack Overflow the company Business Learn more about hiring developers or posting ads with us
+current community help chat Stack Overflow Meta Stack Overflow your communities Sign up or log in to customize your list. more stack exchange communities company blog Tour Start here for a quick overview of the site Help Center Detailed answers to any questions you might have Meta Discuss the workings and policies of this site About Us Learn more about Stack Overflow the company Business Learn more about hiring developers or posting ads with us
+current community help chat Stack Overflow Meta Stack Overflow your communities Sign up or log in to customize your list. more stack exchange communities company blog
+current community
+current community
+current community
+help chat Stack Overflow Meta Stack Overflow
+help chat Stack Overflow Meta Stack Overflow
+help chat Stack Overflow
+help chat
+help
+chat
+Stack Overflow
+
+Meta Stack Overflow
+
+
+Meta Stack Overflow
+
+your communities
+your communities
+Sign up or log in to customize your list.
+Sign up or log in to customize your list.
+Sign up
+log in
+more stack exchange communities company blog
+more stack exchange communities
+more stack exchange communities
+company blog
+
+
+Tour Start here for a quick overview of the site Help Center Detailed answers to any questions you might have Meta Discuss the workings and policies of this site About Us Learn more about Stack Overflow the company Business Learn more about hiring developers or posting ads with us
+Tour Start here for a quick overview of the site Help Center Detailed answers to any questions you might have Meta Discuss the workings and policies of this site About Us Learn more about Stack Overflow the company Business Learn more about hiring developers or posting ads with us
+Tour Start here for a quick overview of the site Help Center Detailed answers to any questions you might have Meta Discuss the workings and policies of this site About Us Learn more about Stack Overflow the company Business Learn more about hiring developers or posting ads with us
+Tour Start here for a quick overview of the site
+Tour Start here for a quick overview of the site
+Start here for a quick overview of the site
+Help Center Detailed answers to any questions you might have
+Help Center Detailed answers to any questions you might have
+Detailed answers to any questions you might have
+Meta Discuss the workings and policies of this site
+Meta Discuss the workings and policies of this site
+Discuss the workings and policies of this site
+About Us Learn more about Stack Overflow the company
+About Us Learn more about Stack Overflow the company
+Learn more about Stack Overflow the company
+Business Learn more about hiring developers or posting ads with us
+Business Learn more about hiring developers or posting ads with us
+Learn more about hiring developers or posting ads with us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Log In Sign Up
+Log In
+Sign Up
+
+Join Stack Overflow to learn, share knowledge, and build your career. Email Sign Up or sign in with Google Facebook Reading a File Containing Words in Order to Count its Frequency Ask Question up vote -1 down vote favorite I am working on a program that will read a file in order to find the frequency of words. I have to create a void method that will read the file of unique words to count it. I am completely new to Java. I have been reading my textbook and other online sources in order to understand the concept/process of reading a file for this specific purpose, but I am still struggling to implement the logic of it. I'd like to know what I am missing/or doing wrong that prevents me from reading the file to count the frequency of words. Here is my code: [This is a part of my code. The other methods(such as the method for sorting the frequency and getting the output) are also within the same class - not included here.] import java.io.*;
+import java.util.*;
+
+
+public class CountingFrequencyOfWords
+{
+       int frequency  [] = new int [999];
+       String words []  = new String [999];
+
+
+       int uniqueCount = 0;
+       int count_Word= 0;
+
+
+       public void methodForInput() throws Exception
+       {
+
+             File file = new File("file.txt");
+             Scanner input = new Scanner(file);
+
+             String x;
+             int i = 0;
+
+             while(input.hasNext())
+             {
+
+                   x = input.next();
+                   count_Word[i] = x;
+                   i =  i + 1;
+
+
+                   if (i == uniqueCount)
+                   {
+
+                         uniqueCount[i] = x;
+                         uniqueCount = uniqueCount + 1;
+                   }
+
+                   frequency[i] = frequency[i] + 1;
+
+             }
+
+
+        }
+
+}
+ java file-io frequency share|improve this question edited Sep 30 '14 at 17:07 Tshepang 5,6471568110 asked May 15 '14 at 2:06 Charlotte.P 11 Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10 @DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13 OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15 @DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23 @Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30 | show 8 more comments 2 Answers 2 active oldest votes up vote 0 down vote Well I cant tell you now that count_Word and uniqueCount are not arrays so count_word[i] and uniqueCount[i] will screw you up. And x is a String so adding it to the int variables you'll get exceptions thrown. other than that i think your reading the file is fine. share|improve this answer answered May 15 '14 at 2:58 MGHandy 180210 add a comment | up vote 0 down vote it...is very very very necessary to use try & catch block for your methodForInput() function because in the declaration of your methodForInput() function you have thrown an Exception public void methodForInput() throws Exception ...so now you have to catch this exception where you call your function if it is thrown during the execution of program......here is the block of code: try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+ don't worry if exception is not thrown...if no exception occur then code run without any problem if exception occur then it will be displayed by System.out.println(e);........I think it may help you..& don't forget to make methodForInput() method as static.....good luck... share|improve this answer edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286 answered May 15 '14 at 3:15 Ankit 1287 add a comment | Your Answer draft saved draft discarded Sign up or log in Sign up using Google Sign up using Facebook Sign up using Email and Password Post as a guest Name Email Post as a guest Name Email discard By posting your answer, you agree to the privacy policy and terms of service. Not the answer you're looking for? Browse other questions tagged java file-io frequency or ask your own question. asked 3 years, 10 months ago viewed 833 times active 3 years, 6 months ago Visit Chat Related 759Reading a plain text file in Java 0Writing to File in Java: output displays differently in NotePad vs. Word/WordPad/NotePad++ 638How to read a large text file line by line using Java? 430Read file line by line 0extract words from file, then count frequency 0Read file, and process words with Word class, method -3Count words from input file 0Java Chat P2P Code Suggestion/Guidance 0Counting frequency of words from a .txt file in java -6I/P-a string S.O/P: For each digit start from 0-9,print count of their occurrence in S.Print10 lines,each line contain 2 space separated integers Hot Network Questions Would earthlike planets in other solar systems have well-known Earth gemstones such as rubies, emeralds and sapphires? Why is melting point independent of external pressure? What is "spilling the beans"? A proverb? A phrase? ...? How avoid a question about women being loyal housewives? Bash word count for sequence length is wrong Why is faith seen as a sign of weakness, instead of an unexplored land/opportunity? How to type two statements side by side with an iff between them Temperature unit conversion (C,F,K) in C++ - follow-up Some authors can use variants of their last names in two different publications. How does one write their last name when citing both inline? Why has Israel not expelled Russian diplomats in response to the Skripal poisoning? Is it permitted to bring bottled water from an outside source into a kosher dining hall? Interpretation of the butterfly effect How to ask someone on a date when dating is untraditional? Average Value not working How would a lunar colony defend itself against aggression from Earth? Are apt-file and apt-cache part of apt? How High is a High Jump? Zero-sum counting Do sounds from different musical instrument merge together into one wave? Are LEDs better than we think? How would a Crystalline species send a probe into space? Difficulty in designing an undetectable nuke to hit the Moon Tea water: heat to 80°C or boil to 100°C and let it cool down to 80°C? Pi got your number more hot questions question feed lang-java
+Join Stack Overflow to learn, share knowledge, and build your career. Email Sign Up or sign in with Google Facebook Reading a File Containing Words in Order to Count its Frequency Ask Question up vote -1 down vote favorite I am working on a program that will read a file in order to find the frequency of words. I have to create a void method that will read the file of unique words to count it. I am completely new to Java. I have been reading my textbook and other online sources in order to understand the concept/process of reading a file for this specific purpose, but I am still struggling to implement the logic of it. I'd like to know what I am missing/or doing wrong that prevents me from reading the file to count the frequency of words. Here is my code: [This is a part of my code. The other methods(such as the method for sorting the frequency and getting the output) are also within the same class - not included here.] import java.io.*;
+import java.util.*;
+
+
+public class CountingFrequencyOfWords
+{
+       int frequency  [] = new int [999];
+       String words []  = new String [999];
+
+
+       int uniqueCount = 0;
+       int count_Word= 0;
+
+
+       public void methodForInput() throws Exception
+       {
+
+             File file = new File("file.txt");
+             Scanner input = new Scanner(file);
+
+             String x;
+             int i = 0;
+
+             while(input.hasNext())
+             {
+
+                   x = input.next();
+                   count_Word[i] = x;
+                   i =  i + 1;
+
+
+                   if (i == uniqueCount)
+                   {
+
+                         uniqueCount[i] = x;
+                         uniqueCount = uniqueCount + 1;
+                   }
+
+                   frequency[i] = frequency[i] + 1;
+
+             }
+
+
+        }
+
+}
+ java file-io frequency share|improve this question edited Sep 30 '14 at 17:07 Tshepang 5,6471568110 asked May 15 '14 at 2:06 Charlotte.P 11 Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10 @DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13 OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15 @DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23 @Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30 | show 8 more comments 2 Answers 2 active oldest votes up vote 0 down vote Well I cant tell you now that count_Word and uniqueCount are not arrays so count_word[i] and uniqueCount[i] will screw you up. And x is a String so adding it to the int variables you'll get exceptions thrown. other than that i think your reading the file is fine. share|improve this answer answered May 15 '14 at 2:58 MGHandy 180210 add a comment | up vote 0 down vote it...is very very very necessary to use try & catch block for your methodForInput() function because in the declaration of your methodForInput() function you have thrown an Exception public void methodForInput() throws Exception ...so now you have to catch this exception where you call your function if it is thrown during the execution of program......here is the block of code: try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+ don't worry if exception is not thrown...if no exception occur then code run without any problem if exception occur then it will be displayed by System.out.println(e);........I think it may help you..& don't forget to make methodForInput() method as static.....good luck... share|improve this answer edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286 answered May 15 '14 at 3:15 Ankit 1287 add a comment | Your Answer draft saved draft discarded Sign up or log in Sign up using Google Sign up using Facebook Sign up using Email and Password Post as a guest Name Email Post as a guest Name Email discard By posting your answer, you agree to the privacy policy and terms of service. Not the answer you're looking for? Browse other questions tagged java file-io frequency or ask your own question. asked 3 years, 10 months ago viewed 833 times active 3 years, 6 months ago Visit Chat Related 759Reading a plain text file in Java 0Writing to File in Java: output displays differently in NotePad vs. Word/WordPad/NotePad++ 638How to read a large text file line by line using Java? 430Read file line by line 0extract words from file, then count frequency 0Read file, and process words with Word class, method -3Count words from input file 0Java Chat P2P Code Suggestion/Guidance 0Counting frequency of words from a .txt file in java -6I/P-a string S.O/P: For each digit start from 0-9,print count of their occurrence in S.Print10 lines,each line contain 2 space separated integers Hot Network Questions Would earthlike planets in other solar systems have well-known Earth gemstones such as rubies, emeralds and sapphires? Why is melting point independent of external pressure? What is "spilling the beans"? A proverb? A phrase? ...? How avoid a question about women being loyal housewives? Bash word count for sequence length is wrong Why is faith seen as a sign of weakness, instead of an unexplored land/opportunity? How to type two statements side by side with an iff between them Temperature unit conversion (C,F,K) in C++ - follow-up Some authors can use variants of their last names in two different publications. How does one write their last name when citing both inline? Why has Israel not expelled Russian diplomats in response to the Skripal poisoning? Is it permitted to bring bottled water from an outside source into a kosher dining hall? Interpretation of the butterfly effect How to ask someone on a date when dating is untraditional? Average Value not working How would a lunar colony defend itself against aggression from Earth? Are apt-file and apt-cache part of apt? How High is a High Jump? Zero-sum counting Do sounds from different musical instrument merge together into one wave? Are LEDs better than we think? How would a Crystalline species send a probe into space? Difficulty in designing an undetectable nuke to hit the Moon Tea water: heat to 80°C or boil to 100°C and let it cool down to 80°C? Pi got your number more hot questions question feed lang-java
+Join Stack Overflow to learn, share knowledge, and build your career. Email Sign Up or sign in with Google Facebook Reading a File Containing Words in Order to Count its Frequency Ask Question up vote -1 down vote favorite I am working on a program that will read a file in order to find the frequency of words. I have to create a void method that will read the file of unique words to count it. I am completely new to Java. I have been reading my textbook and other online sources in order to understand the concept/process of reading a file for this specific purpose, but I am still struggling to implement the logic of it. I'd like to know what I am missing/or doing wrong that prevents me from reading the file to count the frequency of words. Here is my code: [This is a part of my code. The other methods(such as the method for sorting the frequency and getting the output) are also within the same class - not included here.] import java.io.*;
+import java.util.*;
+
+
+public class CountingFrequencyOfWords
+{
+       int frequency  [] = new int [999];
+       String words []  = new String [999];
+
+
+       int uniqueCount = 0;
+       int count_Word= 0;
+
+
+       public void methodForInput() throws Exception
+       {
+
+             File file = new File("file.txt");
+             Scanner input = new Scanner(file);
+
+             String x;
+             int i = 0;
+
+             while(input.hasNext())
+             {
+
+                   x = input.next();
+                   count_Word[i] = x;
+                   i =  i + 1;
+
+
+                   if (i == uniqueCount)
+                   {
+
+                         uniqueCount[i] = x;
+                         uniqueCount = uniqueCount + 1;
+                   }
+
+                   frequency[i] = frequency[i] + 1;
+
+             }
+
+
+        }
+
+}
+ java file-io frequency share|improve this question edited Sep 30 '14 at 17:07 Tshepang 5,6471568110 asked May 15 '14 at 2:06 Charlotte.P 11 Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10 @DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13 OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15 @DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23 @Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30 | show 8 more comments 2 Answers 2 active oldest votes up vote 0 down vote Well I cant tell you now that count_Word and uniqueCount are not arrays so count_word[i] and uniqueCount[i] will screw you up. And x is a String so adding it to the int variables you'll get exceptions thrown. other than that i think your reading the file is fine. share|improve this answer answered May 15 '14 at 2:58 MGHandy 180210 add a comment | up vote 0 down vote it...is very very very necessary to use try & catch block for your methodForInput() function because in the declaration of your methodForInput() function you have thrown an Exception public void methodForInput() throws Exception ...so now you have to catch this exception where you call your function if it is thrown during the execution of program......here is the block of code: try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+ don't worry if exception is not thrown...if no exception occur then code run without any problem if exception occur then it will be displayed by System.out.println(e);........I think it may help you..& don't forget to make methodForInput() method as static.....good luck... share|improve this answer edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286 answered May 15 '14 at 3:15 Ankit 1287 add a comment | Your Answer draft saved draft discarded Sign up or log in Sign up using Google Sign up using Facebook Sign up using Email and Password Post as a guest Name Email Post as a guest Name Email discard By posting your answer, you agree to the privacy policy and terms of service. Not the answer you're looking for? Browse other questions tagged java file-io frequency or ask your own question. asked 3 years, 10 months ago viewed 833 times active 3 years, 6 months ago Visit Chat Related 759Reading a plain text file in Java 0Writing to File in Java: output displays differently in NotePad vs. Word/WordPad/NotePad++ 638How to read a large text file line by line using Java? 430Read file line by line 0extract words from file, then count frequency 0Read file, and process words with Word class, method -3Count words from input file 0Java Chat P2P Code Suggestion/Guidance 0Counting frequency of words from a .txt file in java -6I/P-a string S.O/P: For each digit start from 0-9,print count of their occurrence in S.Print10 lines,each line contain 2 space separated integers Hot Network Questions Would earthlike planets in other solar systems have well-known Earth gemstones such as rubies, emeralds and sapphires? Why is melting point independent of external pressure? What is "spilling the beans"? A proverb? A phrase? ...? How avoid a question about women being loyal housewives? Bash word count for sequence length is wrong Why is faith seen as a sign of weakness, instead of an unexplored land/opportunity? How to type two statements side by side with an iff between them Temperature unit conversion (C,F,K) in C++ - follow-up Some authors can use variants of their last names in two different publications. How does one write their last name when citing both inline? Why has Israel not expelled Russian diplomats in response to the Skripal poisoning? Is it permitted to bring bottled water from an outside source into a kosher dining hall? Interpretation of the butterfly effect How to ask someone on a date when dating is untraditional? Average Value not working How would a lunar colony defend itself against aggression from Earth? Are apt-file and apt-cache part of apt? How High is a High Jump? Zero-sum counting Do sounds from different musical instrument merge together into one wave? Are LEDs better than we think? How would a Crystalline species send a probe into space? Difficulty in designing an undetectable nuke to hit the Moon Tea water: heat to 80°C or boil to 100°C and let it cool down to 80°C? Pi got your number more hot questions question feed lang-java
+
+Join Stack Overflow to learn, share knowledge, and build your career. Email Sign Up or sign in with Google Facebook
+Join Stack Overflow to learn, share knowledge, and build your career. Email Sign Up or sign in with Google Facebook
+Join Stack Overflow to learn, share knowledge, and build your career.
+Join Stack Overflow to learn, share knowledge, and build your career.
+Join Stack Overflow
+Email Sign Up or sign in with Google Facebook
+Email Sign Up or sign in with Google Facebook
+Email Sign Up
+or sign in with
+Google
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reading a File Containing Words in Order to Count its Frequency Ask Question up vote -1 down vote favorite I am working on a program that will read a file in order to find the frequency of words. I have to create a void method that will read the file of unique words to count it. I am completely new to Java. I have been reading my textbook and other online sources in order to understand the concept/process of reading a file for this specific purpose, but I am still struggling to implement the logic of it. I'd like to know what I am missing/or doing wrong that prevents me from reading the file to count the frequency of words. Here is my code: [This is a part of my code. The other methods(such as the method for sorting the frequency and getting the output) are also within the same class - not included here.] import java.io.*;
+import java.util.*;
+
+
+public class CountingFrequencyOfWords
+{
+       int frequency  [] = new int [999];
+       String words []  = new String [999];
+
+
+       int uniqueCount = 0;
+       int count_Word= 0;
+
+
+       public void methodForInput() throws Exception
+       {
+
+             File file = new File("file.txt");
+             Scanner input = new Scanner(file);
+
+             String x;
+             int i = 0;
+
+             while(input.hasNext())
+             {
+
+                   x = input.next();
+                   count_Word[i] = x;
+                   i =  i + 1;
+
+
+                   if (i == uniqueCount)
+                   {
+
+                         uniqueCount[i] = x;
+                         uniqueCount = uniqueCount + 1;
+                   }
+
+                   frequency[i] = frequency[i] + 1;
+
+             }
+
+
+        }
+
+}
+ java file-io frequency share|improve this question edited Sep 30 '14 at 17:07 Tshepang 5,6471568110 asked May 15 '14 at 2:06 Charlotte.P 11 Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10 @DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13 OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15 @DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23 @Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30 | show 8 more comments 2 Answers 2 active oldest votes up vote 0 down vote Well I cant tell you now that count_Word and uniqueCount are not arrays so count_word[i] and uniqueCount[i] will screw you up. And x is a String so adding it to the int variables you'll get exceptions thrown. other than that i think your reading the file is fine. share|improve this answer answered May 15 '14 at 2:58 MGHandy 180210 add a comment | up vote 0 down vote it...is very very very necessary to use try & catch block for your methodForInput() function because in the declaration of your methodForInput() function you have thrown an Exception public void methodForInput() throws Exception ...so now you have to catch this exception where you call your function if it is thrown during the execution of program......here is the block of code: try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+ don't worry if exception is not thrown...if no exception occur then code run without any problem if exception occur then it will be displayed by System.out.println(e);........I think it may help you..& don't forget to make methodForInput() method as static.....good luck... share|improve this answer edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286 answered May 15 '14 at 3:15 Ankit 1287 add a comment | Your Answer draft saved draft discarded Sign up or log in Sign up using Google Sign up using Facebook Sign up using Email and Password Post as a guest Name Email Post as a guest Name Email discard By posting your answer, you agree to the privacy policy and terms of service. Not the answer you're looking for? Browse other questions tagged java file-io frequency or ask your own question. asked 3 years, 10 months ago viewed 833 times active 3 years, 6 months ago Visit Chat Related 759Reading a plain text file in Java 0Writing to File in Java: output displays differently in NotePad vs. Word/WordPad/NotePad++ 638How to read a large text file line by line using Java? 430Read file line by line 0extract words from file, then count frequency 0Read file, and process words with Word class, method -3Count words from input file 0Java Chat P2P Code Suggestion/Guidance 0Counting frequency of words from a .txt file in java -6I/P-a string S.O/P: For each digit start from 0-9,print count of their occurrence in S.Print10 lines,each line contain 2 space separated integers Hot Network Questions Would earthlike planets in other solar systems have well-known Earth gemstones such as rubies, emeralds and sapphires? Why is melting point independent of external pressure? What is "spilling the beans"? A proverb? A phrase? ...? How avoid a question about women being loyal housewives? Bash word count for sequence length is wrong Why is faith seen as a sign of weakness, instead of an unexplored land/opportunity? How to type two statements side by side with an iff between them Temperature unit conversion (C,F,K) in C++ - follow-up Some authors can use variants of their last names in two different publications. How does one write their last name when citing both inline? Why has Israel not expelled Russian diplomats in response to the Skripal poisoning? Is it permitted to bring bottled water from an outside source into a kosher dining hall? Interpretation of the butterfly effect How to ask someone on a date when dating is untraditional? Average Value not working How would a lunar colony defend itself against aggression from Earth? Are apt-file and apt-cache part of apt? How High is a High Jump? Zero-sum counting Do sounds from different musical instrument merge together into one wave? Are LEDs better than we think? How would a Crystalline species send a probe into space? Difficulty in designing an undetectable nuke to hit the Moon Tea water: heat to 80°C or boil to 100°C and let it cool down to 80°C? Pi got your number more hot questions question feed
+Reading a File Containing Words in Order to Count its Frequency Ask Question
+Reading a File Containing Words in Order to Count its Frequency
+Reading a File Containing Words in Order to Count its Frequency
+Ask Question
+Ask Question
+up vote -1 down vote favorite I am working on a program that will read a file in order to find the frequency of words. I have to create a void method that will read the file of unique words to count it. I am completely new to Java. I have been reading my textbook and other online sources in order to understand the concept/process of reading a file for this specific purpose, but I am still struggling to implement the logic of it. I'd like to know what I am missing/or doing wrong that prevents me from reading the file to count the frequency of words. Here is my code: [This is a part of my code. The other methods(such as the method for sorting the frequency and getting the output) are also within the same class - not included here.] import java.io.*;
+import java.util.*;
+
+
+public class CountingFrequencyOfWords
+{
+       int frequency  [] = new int [999];
+       String words []  = new String [999];
+
+
+       int uniqueCount = 0;
+       int count_Word= 0;
+
+
+       public void methodForInput() throws Exception
+       {
+
+             File file = new File("file.txt");
+             Scanner input = new Scanner(file);
+
+             String x;
+             int i = 0;
+
+             while(input.hasNext())
+             {
+
+                   x = input.next();
+                   count_Word[i] = x;
+                   i =  i + 1;
+
+
+                   if (i == uniqueCount)
+                   {
+
+                         uniqueCount[i] = x;
+                         uniqueCount = uniqueCount + 1;
+                   }
+
+                   frequency[i] = frequency[i] + 1;
+
+             }
+
+
+        }
+
+}
+ java file-io frequency share|improve this question edited Sep 30 '14 at 17:07 Tshepang 5,6471568110 asked May 15 '14 at 2:06 Charlotte.P 11 Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10 @DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13 OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15 @DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23 @Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30 | show 8 more comments 2 Answers 2 active oldest votes up vote 0 down vote Well I cant tell you now that count_Word and uniqueCount are not arrays so count_word[i] and uniqueCount[i] will screw you up. And x is a String so adding it to the int variables you'll get exceptions thrown. other than that i think your reading the file is fine. share|improve this answer answered May 15 '14 at 2:58 MGHandy 180210 add a comment | up vote 0 down vote it...is very very very necessary to use try & catch block for your methodForInput() function because in the declaration of your methodForInput() function you have thrown an Exception public void methodForInput() throws Exception ...so now you have to catch this exception where you call your function if it is thrown during the execution of program......here is the block of code: try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+ don't worry if exception is not thrown...if no exception occur then code run without any problem if exception occur then it will be displayed by System.out.println(e);........I think it may help you..& don't forget to make methodForInput() method as static.....good luck... share|improve this answer edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286 answered May 15 '14 at 3:15 Ankit 1287 add a comment | Your Answer draft saved draft discarded Sign up or log in Sign up using Google Sign up using Facebook Sign up using Email and Password Post as a guest Name Email Post as a guest Name Email discard By posting your answer, you agree to the privacy policy and terms of service. Not the answer you're looking for? Browse other questions tagged java file-io frequency or ask your own question.
+up vote -1 down vote favorite I am working on a program that will read a file in order to find the frequency of words. I have to create a void method that will read the file of unique words to count it. I am completely new to Java. I have been reading my textbook and other online sources in order to understand the concept/process of reading a file for this specific purpose, but I am still struggling to implement the logic of it. I'd like to know what I am missing/or doing wrong that prevents me from reading the file to count the frequency of words. Here is my code: [This is a part of my code. The other methods(such as the method for sorting the frequency and getting the output) are also within the same class - not included here.] import java.io.*;
+import java.util.*;
+
+
+public class CountingFrequencyOfWords
+{
+       int frequency  [] = new int [999];
+       String words []  = new String [999];
+
+
+       int uniqueCount = 0;
+       int count_Word= 0;
+
+
+       public void methodForInput() throws Exception
+       {
+
+             File file = new File("file.txt");
+             Scanner input = new Scanner(file);
+
+             String x;
+             int i = 0;
+
+             while(input.hasNext())
+             {
+
+                   x = input.next();
+                   count_Word[i] = x;
+                   i =  i + 1;
+
+
+                   if (i == uniqueCount)
+                   {
+
+                         uniqueCount[i] = x;
+                         uniqueCount = uniqueCount + 1;
+                   }
+
+                   frequency[i] = frequency[i] + 1;
+
+             }
+
+
+        }
+
+}
+ java file-io frequency share|improve this question edited Sep 30 '14 at 17:07 Tshepang 5,6471568110 asked May 15 '14 at 2:06 Charlotte.P 11 Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10 @DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13 OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15 @DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23 @Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30 | show 8 more comments
+
+
+up vote -1 down vote favorite I am working on a program that will read a file in order to find the frequency of words. I have to create a void method that will read the file of unique words to count it. I am completely new to Java. I have been reading my textbook and other online sources in order to understand the concept/process of reading a file for this specific purpose, but I am still struggling to implement the logic of it. I'd like to know what I am missing/or doing wrong that prevents me from reading the file to count the frequency of words. Here is my code: [This is a part of my code. The other methods(such as the method for sorting the frequency and getting the output) are also within the same class - not included here.] import java.io.*;
+import java.util.*;
+
+
+public class CountingFrequencyOfWords
+{
+       int frequency  [] = new int [999];
+       String words []  = new String [999];
+
+
+       int uniqueCount = 0;
+       int count_Word= 0;
+
+
+       public void methodForInput() throws Exception
+       {
+
+             File file = new File("file.txt");
+             Scanner input = new Scanner(file);
+
+             String x;
+             int i = 0;
+
+             while(input.hasNext())
+             {
+
+                   x = input.next();
+                   count_Word[i] = x;
+                   i =  i + 1;
+
+
+                   if (i == uniqueCount)
+                   {
+
+                         uniqueCount[i] = x;
+                         uniqueCount = uniqueCount + 1;
+                   }
+
+                   frequency[i] = frequency[i] + 1;
+
+             }
+
+
+        }
+
+}
+ java file-io frequency share|improve this question edited Sep 30 '14 at 17:07 Tshepang 5,6471568110 asked May 15 '14 at 2:06 Charlotte.P 11 Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10 @DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13 OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15 @DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23 @Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30 | show 8 more comments
+up vote -1 down vote favorite
+up vote -1 down vote favorite
+
+up vote
+-1
+down vote
+favorite
+
+
+I am working on a program that will read a file in order to find the frequency of words. I have to create a void method that will read the file of unique words to count it. I am completely new to Java. I have been reading my textbook and other online sources in order to understand the concept/process of reading a file for this specific purpose, but I am still struggling to implement the logic of it. I'd like to know what I am missing/or doing wrong that prevents me from reading the file to count the frequency of words. Here is my code: [This is a part of my code. The other methods(such as the method for sorting the frequency and getting the output) are also within the same class - not included here.] import java.io.*;
+import java.util.*;
+
+
+public class CountingFrequencyOfWords
+{
+       int frequency  [] = new int [999];
+       String words []  = new String [999];
+
+
+       int uniqueCount = 0;
+       int count_Word= 0;
+
+
+       public void methodForInput() throws Exception
+       {
+
+             File file = new File("file.txt");
+             Scanner input = new Scanner(file);
+
+             String x;
+             int i = 0;
+
+             while(input.hasNext())
+             {
+
+                   x = input.next();
+                   count_Word[i] = x;
+                   i =  i + 1;
+
+
+                   if (i == uniqueCount)
+                   {
+
+                         uniqueCount[i] = x;
+                         uniqueCount = uniqueCount + 1;
+                   }
+
+                   frequency[i] = frequency[i] + 1;
+
+             }
+
+
+        }
+
+}
+ java file-io frequency share|improve this question edited Sep 30 '14 at 17:07 Tshepang 5,6471568110 asked May 15 '14 at 2:06 Charlotte.P 11
+I am working on a program that will read a file in order to find the frequency of words. I have to create a void method that will read the file of unique words to count it. I am completely new to Java. I have been reading my textbook and other online sources in order to understand the concept/process of reading a file for this specific purpose, but I am still struggling to implement the logic of it. I'd like to know what I am missing/or doing wrong that prevents me from reading the file to count the frequency of words. Here is my code: [This is a part of my code. The other methods(such as the method for sorting the frequency and getting the output) are also within the same class - not included here.] import java.io.*;
+import java.util.*;
+
+
+public class CountingFrequencyOfWords
+{
+       int frequency  [] = new int [999];
+       String words []  = new String [999];
+
+
+       int uniqueCount = 0;
+       int count_Word= 0;
+
+
+       public void methodForInput() throws Exception
+       {
+
+             File file = new File("file.txt");
+             Scanner input = new Scanner(file);
+
+             String x;
+             int i = 0;
+
+             while(input.hasNext())
+             {
+
+                   x = input.next();
+                   count_Word[i] = x;
+                   i =  i + 1;
+
+
+                   if (i == uniqueCount)
+                   {
+
+                         uniqueCount[i] = x;
+                         uniqueCount = uniqueCount + 1;
+                   }
+
+                   frequency[i] = frequency[i] + 1;
+
+             }
+
+
+        }
+
+}
+I am working on a program that will read a file in order to find the frequency of words. I have to create a void method that will read the file of unique words to count it.
+I am completely new to Java. I have been reading my textbook and other online sources in order to understand the concept/process of reading a file for this specific purpose, but I am still struggling to implement the logic of it.
+I'd like to know what I am missing/or doing wrong that prevents me from reading the file to count the frequency of words.
+Here is my code: [This is a part of my code. The other methods(such as the method for sorting the frequency and getting the output) are also within the same class - not included here.]
+import java.io.*;
+import java.util.*;
+
+
+public class CountingFrequencyOfWords
+{
+       int frequency  [] = new int [999];
+       String words []  = new String [999];
+
+
+       int uniqueCount = 0;
+       int count_Word= 0;
+
+
+       public void methodForInput() throws Exception
+       {
+
+             File file = new File("file.txt");
+             Scanner input = new Scanner(file);
+
+             String x;
+             int i = 0;
+
+             while(input.hasNext())
+             {
+
+                   x = input.next();
+                   count_Word[i] = x;
+                   i =  i + 1;
+
+
+                   if (i == uniqueCount)
+                   {
+
+                         uniqueCount[i] = x;
+                         uniqueCount = uniqueCount + 1;
+                   }
+
+                   frequency[i] = frequency[i] + 1;
+
+             }
+
+
+        }
+
+}
+import java.io.*;
+import java.util.*;
+
+
+public class CountingFrequencyOfWords
+{
+       int frequency  [] = new int [999];
+       String words []  = new String [999];
+
+
+       int uniqueCount = 0;
+       int count_Word= 0;
+
+
+       public void methodForInput() throws Exception
+       {
+
+             File file = new File("file.txt");
+             Scanner input = new Scanner(file);
+
+             String x;
+             int i = 0;
+
+             while(input.hasNext())
+             {
+
+                   x = input.next();
+                   count_Word[i] = x;
+                   i =  i + 1;
+
+
+                   if (i == uniqueCount)
+                   {
+
+                         uniqueCount[i] = x;
+                         uniqueCount = uniqueCount + 1;
+                   }
+
+                   frequency[i] = frequency[i] + 1;
+
+             }
+
+
+        }
+
+}
+java file-io frequency
+java
+file-io
+frequency
+share|improve this question edited Sep 30 '14 at 17:07 Tshepang 5,6471568110 asked May 15 '14 at 2:06 Charlotte.P 11
+share|improve this question
+share|improve this question
+share
+|
+improve this question
+edited Sep 30 '14 at 17:07 Tshepang 5,6471568110
+edited Sep 30 '14 at 17:07 Tshepang 5,6471568110
+edited Sep 30 '14 at 17:07
+edited Sep 30 '14 at 17:07
+Sep 30 '14 at 17:07
+
+
+
+
+Tshepang 5,6471568110
+Tshepang
+5,6471568110
+5,647
+15
+
+15
+68
+
+68
+110
+
+110
+asked May 15 '14 at 2:06 Charlotte.P 11
+asked May 15 '14 at 2:06 Charlotte.P 11
+asked May 15 '14 at 2:06
+May 15 '14 at 2:06
+
+
+
+
+Charlotte.P 11
+Charlotte.P
+11
+1
+1
+
+1
+Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10 @DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13 OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15 @DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23 @Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30 | show 8 more comments
+Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10 @DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13 OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15 @DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23 @Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30
+Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10 @DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13 OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15 @DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23 @Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30
+Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10
+
+
+Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10
+Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this? – Dawood ibn Kareem May 15 '14 at 2:10
+Charlotte, do you have a specific question? What is it that you actually want people to post, in response to this?
+Dawood ibn Kareem
+May 15 '14 at 2:10
+May 15 '14 at 2:10
+@DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13
+
+
+@DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13
+@DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file. – Charlotte.P May 15 '14 at 2:13
+@DavidWallace, I want to know how I can get this method to read a file in order to count the words within the existing file.
+Charlotte.P
+May 15 '14 at 2:13
+May 15 '14 at 2:13
+OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15
+
+
+OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15
+OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do? – Dawood ibn Kareem May 15 '14 at 2:15
+OK, but you say you've already written some methods that you haven't shown us. I'm not sure which bit you're missing. In any case, I would suggest you create a HashMap<String,Integer>, keyed by the words that you find, and increment the Integer every time you see a word. Is that the part that you don't know how to do?
+HashMap<String,Integer>
+Integer
+Dawood ibn Kareem
+May 15 '14 at 2:15
+May 15 '14 at 2:15
+@DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23
+
+
+@DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23
+@DavidWallace, yeah...but I have to use two arrays for this specific program. – Charlotte.P May 15 '14 at 2:23
+@DavidWallace, yeah...but I have to use two arrays for this specific program.
+Charlotte.P
+May 15 '14 at 2:23
+May 15 '14 at 2:23
+@Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30
+
+
+@Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30
+@Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array. – William Morrison May 15 '14 at 2:30
+@Charlotte.P Create a String array, and an integer array. The string array holds all unique words you've encountered. The integer array holds each word's frequency. For each word in file, find the word in your string array, and increment the corresponding index in your integer array. if the word doesn't exist, add it to your string array.
+William Morrison
+May 15 '14 at 2:30
+May 15 '14 at 2:30
+| show 8 more comments
+
+|
+show 8 more comments
+8
+2 Answers 2 active oldest votes up vote 0 down vote Well I cant tell you now that count_Word and uniqueCount are not arrays so count_word[i] and uniqueCount[i] will screw you up. And x is a String so adding it to the int variables you'll get exceptions thrown. other than that i think your reading the file is fine. share|improve this answer answered May 15 '14 at 2:58 MGHandy 180210 add a comment | up vote 0 down vote it...is very very very necessary to use try & catch block for your methodForInput() function because in the declaration of your methodForInput() function you have thrown an Exception public void methodForInput() throws Exception ...so now you have to catch this exception where you call your function if it is thrown during the execution of program......here is the block of code: try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+ don't worry if exception is not thrown...if no exception occur then code run without any problem if exception occur then it will be displayed by System.out.println(e);........I think it may help you..& don't forget to make methodForInput() method as static.....good luck... share|improve this answer edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286 answered May 15 '14 at 3:15 Ankit 1287 add a comment | Your Answer draft saved draft discarded Sign up or log in Sign up using Google Sign up using Facebook Sign up using Email and Password Post as a guest Name Email Post as a guest Name Email discard By posting your answer, you agree to the privacy policy and terms of service. Not the answer you're looking for? Browse other questions tagged java file-io frequency or ask your own question.
+
+2 Answers 2 active oldest votes
+2 Answers 2 active oldest votes
+2 Answers 2
+2
+active oldest votes
+active oldest votes
+active
+oldest
+votes
+
+up vote 0 down vote Well I cant tell you now that count_Word and uniqueCount are not arrays so count_word[i] and uniqueCount[i] will screw you up. And x is a String so adding it to the int variables you'll get exceptions thrown. other than that i think your reading the file is fine. share|improve this answer answered May 15 '14 at 2:58 MGHandy 180210 add a comment |
+up vote 0 down vote Well I cant tell you now that count_Word and uniqueCount are not arrays so count_word[i] and uniqueCount[i] will screw you up. And x is a String so adding it to the int variables you'll get exceptions thrown. other than that i think your reading the file is fine. share|improve this answer answered May 15 '14 at 2:58 MGHandy 180210 add a comment |
+up vote 0 down vote
+up vote 0 down vote
+
+up vote
+0
+down vote
+Well I cant tell you now that count_Word and uniqueCount are not arrays so count_word[i] and uniqueCount[i] will screw you up. And x is a String so adding it to the int variables you'll get exceptions thrown. other than that i think your reading the file is fine. share|improve this answer answered May 15 '14 at 2:58 MGHandy 180210
+Well I cant tell you now that count_Word and uniqueCount are not arrays so count_word[i] and uniqueCount[i] will screw you up. And x is a String so adding it to the int variables you'll get exceptions thrown. other than that i think your reading the file is fine.
+Well I cant tell you now that count_Word and uniqueCount are not arrays so count_word[i] and uniqueCount[i] will screw you up. And x is a String so adding it to the int variables you'll get exceptions thrown. other than that i think your reading the file is fine.
+share|improve this answer answered May 15 '14 at 2:58 MGHandy 180210
+share|improve this answer
+share|improve this answer
+share
+|
+improve this answer
+answered May 15 '14 at 2:58 MGHandy 180210
+answered May 15 '14 at 2:58 MGHandy 180210
+answered May 15 '14 at 2:58
+May 15 '14 at 2:58
+
+
+
+
+MGHandy 180210
+MGHandy
+180210
+180
+2
+
+2
+10
+
+10
+add a comment |
+
+
+add a comment |
+add a comment
+|
+
+
+
+up vote 0 down vote it...is very very very necessary to use try & catch block for your methodForInput() function because in the declaration of your methodForInput() function you have thrown an Exception public void methodForInput() throws Exception ...so now you have to catch this exception where you call your function if it is thrown during the execution of program......here is the block of code: try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+ don't worry if exception is not thrown...if no exception occur then code run without any problem if exception occur then it will be displayed by System.out.println(e);........I think it may help you..& don't forget to make methodForInput() method as static.....good luck... share|improve this answer edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286 answered May 15 '14 at 3:15 Ankit 1287 add a comment |
+up vote 0 down vote it...is very very very necessary to use try & catch block for your methodForInput() function because in the declaration of your methodForInput() function you have thrown an Exception public void methodForInput() throws Exception ...so now you have to catch this exception where you call your function if it is thrown during the execution of program......here is the block of code: try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+ don't worry if exception is not thrown...if no exception occur then code run without any problem if exception occur then it will be displayed by System.out.println(e);........I think it may help you..& don't forget to make methodForInput() method as static.....good luck... share|improve this answer edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286 answered May 15 '14 at 3:15 Ankit 1287 add a comment |
+up vote 0 down vote
+up vote 0 down vote
+
+up vote
+0
+down vote
+it...is very very very necessary to use try & catch block for your methodForInput() function because in the declaration of your methodForInput() function you have thrown an Exception public void methodForInput() throws Exception ...so now you have to catch this exception where you call your function if it is thrown during the execution of program......here is the block of code: try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+ don't worry if exception is not thrown...if no exception occur then code run without any problem if exception occur then it will be displayed by System.out.println(e);........I think it may help you..& don't forget to make methodForInput() method as static.....good luck... share|improve this answer edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286 answered May 15 '14 at 3:15 Ankit 1287
+it...is very very very necessary to use try & catch block for your methodForInput() function because in the declaration of your methodForInput() function you have thrown an Exception public void methodForInput() throws Exception ...so now you have to catch this exception where you call your function if it is thrown during the execution of program......here is the block of code: try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+ don't worry if exception is not thrown...if no exception occur then code run without any problem if exception occur then it will be displayed by System.out.println(e);........I think it may help you..& don't forget to make methodForInput() method as static.....good luck...
+it...is very very very necessary to use try & catch block for your methodForInput() function because in the declaration of your methodForInput() function you have thrown an Exception public void methodForInput() throws Exception ...so now you have to catch this exception where you call your function if it is thrown during the execution of program......here is the block of code:
+methodForInput()
+methodForInput()
+public void methodForInput() throws Exception
+try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+try{   //try it for exception
+    methodForInput();
+}catch(Exception e){
+    System.out.println(e); //print the exception if it is thrown during execution of program
+}
+don't worry if exception is not thrown...if no exception occur then code run without any problem if exception occur then it will be displayed by System.out.println(e);........I think it may help you..& don't forget to make methodForInput() method as static.....good luck...
+System.out.println(e);
+methodForInput()
+static
+share|improve this answer edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286 answered May 15 '14 at 3:15 Ankit 1287
+share|improve this answer
+share|improve this answer
+share
+|
+improve this answer
+edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286
+edited May 15 '14 at 3:20 Dawood ibn Kareem 50.5k85286
+edited May 15 '14 at 3:20
+edited May 15 '14 at 3:20
+May 15 '14 at 3:20
+
+
+
+
+Dawood ibn Kareem 50.5k85286
+Dawood ibn Kareem
+50.5k85286
+50.5k
+8
+
+8
+52
+
+52
+86
+
+86
+answered May 15 '14 at 3:15 Ankit 1287
+answered May 15 '14 at 3:15 Ankit 1287
+answered May 15 '14 at 3:15
+May 15 '14 at 3:15
+
+
+
+
+Ankit 1287
+Ankit
+1287
+128
+7
+
+7
+add a comment |
+
+
+add a comment |
+add a comment
+|
+
+
+Your Answer draft saved draft discarded Sign up or log in Sign up using Google Sign up using Facebook Sign up using Email and Password Post as a guest Name Email Post as a guest Name Email discard By posting your answer, you agree to the privacy policy and terms of service.
+
+
+
+Your Answer
+
+
+draft saved draft discarded
+
+
+
+
+
+draft saved
+draft discarded
+
+
+
+
+
+Sign up or log in Sign up using Google Sign up using Facebook Sign up using Email and Password Post as a guest Name Email Post as a guest Name Email
+Sign up or log in Sign up using Google Sign up using Facebook Sign up using Email and Password Post as a guest Name Email
+Sign up or log in Sign up using Google Sign up using Facebook Sign up using Email and Password Post as a guest Name Email
+Sign up or log in Sign up using Google Sign up using Facebook Sign up using Email and Password
+Sign up or log in
+log in
+
+Sign up using Google
+
+
+
+
+
+
+Sign up using Facebook
+
+
+Sign up using Email and Password
+
+
+
+
+
+
+
+
+Post as a guest Name Email
+Post as a guest
+Name Email
+Name Email
+Name Email
+Name Email
+Name Email
+Name
+Name
+
+Email
+Email
+
+
+Post as a guest Name Email
+Post as a guest
+Name Email
+Name Email
+Name Email
+Name Email
+Name Email
+Name
+Name
+
+Email
+Email
+
+discard By posting your answer, you agree to the privacy policy and terms of service.
+
+discard
+By posting your answer, you agree to the privacy policy and terms of service.
+privacy policy
+terms of service
+
+Not the answer you're looking for? Browse other questions tagged java file-io frequency or ask your own question.
+java
+file-io
+frequency
+ask your own question
+asked 3 years, 10 months ago viewed 833 times active 3 years, 6 months ago Visit Chat Related 759Reading a plain text file in Java 0Writing to File in Java: output displays differently in NotePad vs. Word/WordPad/NotePad++ 638How to read a large text file line by line using Java? 430Read file line by line 0extract words from file, then count frequency 0Read file, and process words with Word class, method -3Count words from input file 0Java Chat P2P Code Suggestion/Guidance 0Counting frequency of words from a .txt file in java -6I/P-a string S.O/P: For each digit start from 0-9,print count of their occurrence in S.Print10 lines,each line contain 2 space separated integers Hot Network Questions Would earthlike planets in other solar systems have well-known Earth gemstones such as rubies, emeralds and sapphires? Why is melting point independent of external pressure? What is "spilling the beans"? A proverb? A phrase? ...? How avoid a question about women being loyal housewives? Bash word count for sequence length is wrong Why is faith seen as a sign of weakness, instead of an unexplored land/opportunity? How to type two statements side by side with an iff between them Temperature unit conversion (C,F,K) in C++ - follow-up Some authors can use variants of their last names in two different publications. How does one write their last name when citing both inline? Why has Israel not expelled Russian diplomats in response to the Skripal poisoning? Is it permitted to bring bottled water from an outside source into a kosher dining hall? Interpretation of the butterfly effect How to ask someone on a date when dating is untraditional? Average Value not working How would a lunar colony defend itself against aggression from Earth? Are apt-file and apt-cache part of apt? How High is a High Jump? Zero-sum counting Do sounds from different musical instrument merge together into one wave? Are LEDs better than we think? How would a Crystalline species send a probe into space? Difficulty in designing an undetectable nuke to hit the Moon Tea water: heat to 80°C or boil to 100°C and let it cool down to 80°C? Pi got your number more hot questions question feed
+asked 3 years, 10 months ago viewed 833 times active 3 years, 6 months ago
+asked 3 years, 10 months ago viewed 833 times active 3 years, 6 months ago
+asked 3 years, 10 months ago viewed 833 times active 3 years, 6 months ago
+asked 3 years, 10 months ago
+asked
+asked
+3 years, 10 months ago
+3 years, 10 months ago
+3 years, 10 months ago
+viewed 833 times
+viewed
+viewed
+833 times
+833 times
+833 times
+active 3 years, 6 months ago
+active
+active
+3 years, 6 months ago
+3 years, 6 months ago
+3 years, 6 months ago
+3 years, 6 months ago
+
+
+
+
+Visit Chat
+Visit Chat
+Visit Chat
+
+
+Related 759Reading a plain text file in Java 0Writing to File in Java: output displays differently in NotePad vs. Word/WordPad/NotePad++ 638How to read a large text file line by line using Java? 430Read file line by line 0extract words from file, then count frequency 0Read file, and process words with Word class, method -3Count words from input file 0Java Chat P2P Code Suggestion/Guidance 0Counting frequency of words from a .txt file in java -6I/P-a string S.O/P: For each digit start from 0-9,print count of their occurrence in S.Print10 lines,each line contain 2 space separated integers
+Related
+759Reading a plain text file in Java 0Writing to File in Java: output displays differently in NotePad vs. Word/WordPad/NotePad++ 638How to read a large text file line by line using Java? 430Read file line by line 0extract words from file, then count frequency 0Read file, and process words with Word class, method -3Count words from input file 0Java Chat P2P Code Suggestion/Guidance 0Counting frequency of words from a .txt file in java -6I/P-a string S.O/P: For each digit start from 0-9,print count of their occurrence in S.Print10 lines,each line contain 2 space separated integers
+759Reading a plain text file in Java
+759
+759
+Reading a plain text file in Java
+0Writing to File in Java: output displays differently in NotePad vs. Word/WordPad/NotePad++
+0
+0
+Writing to File in Java: output displays differently in NotePad vs. Word/WordPad/NotePad++
+638How to read a large text file line by line using Java?
+638
+638
+How to read a large text file line by line using Java?
+430Read file line by line
+430
+430
+Read file line by line
+0extract words from file, then count frequency
+0
+0
+extract words from file, then count frequency
+0Read file, and process words with Word class, method
+0
+0
+Read file, and process words with Word class, method
+-3Count words from input file
+-3
+-3
+Count words from input file
+0Java Chat P2P Code Suggestion/Guidance
+0
+0
+Java Chat P2P Code Suggestion/Guidance
+0Counting frequency of words from a .txt file in java
+0
+0
+Counting frequency of words from a .txt file in java
+-6I/P-a string S.O/P: For each digit start from 0-9,print count of their occurrence in S.Print10 lines,each line contain 2 space separated integers
+-6
+-6
+I/P-a string S.O/P: For each digit start from 0-9,print count of their occurrence in S.Print10 lines,each line contain 2 space separated integers
+Hot Network Questions Would earthlike planets in other solar systems have well-known Earth gemstones such as rubies, emeralds and sapphires? Why is melting point independent of external pressure? What is "spilling the beans"? A proverb? A phrase? ...? How avoid a question about women being loyal housewives? Bash word count for sequence length is wrong Why is faith seen as a sign of weakness, instead of an unexplored land/opportunity? How to type two statements side by side with an iff between them Temperature unit conversion (C,F,K) in C++ - follow-up Some authors can use variants of their last names in two different publications. How does one write their last name when citing both inline? Why has Israel not expelled Russian diplomats in response to the Skripal poisoning? Is it permitted to bring bottled water from an outside source into a kosher dining hall? Interpretation of the butterfly effect How to ask someone on a date when dating is untraditional? Average Value not working How would a lunar colony defend itself against aggression from Earth? Are apt-file and apt-cache part of apt? How High is a High Jump? Zero-sum counting Do sounds from different musical instrument merge together into one wave? Are LEDs better than we think? How would a Crystalline species send a probe into space? Difficulty in designing an undetectable nuke to hit the Moon Tea water: heat to 80°C or boil to 100°C and let it cool down to 80°C? Pi got your number more hot questions
+Hot Network Questions
+Hot Network Questions
+Would earthlike planets in other solar systems have well-known Earth gemstones such as rubies, emeralds and sapphires? Why is melting point independent of external pressure? What is "spilling the beans"? A proverb? A phrase? ...? How avoid a question about women being loyal housewives? Bash word count for sequence length is wrong Why is faith seen as a sign of weakness, instead of an unexplored land/opportunity? How to type two statements side by side with an iff between them Temperature unit conversion (C,F,K) in C++ - follow-up Some authors can use variants of their last names in two different publications. How does one write their last name when citing both inline? Why has Israel not expelled Russian diplomats in response to the Skripal poisoning? Is it permitted to bring bottled water from an outside source into a kosher dining hall? Interpretation of the butterfly effect How to ask someone on a date when dating is untraditional? Average Value not working How would a lunar colony defend itself against aggression from Earth? Are apt-file and apt-cache part of apt? How High is a High Jump? Zero-sum counting Do sounds from different musical instrument merge together into one wave? Are LEDs better than we think? How would a Crystalline species send a probe into space? Difficulty in designing an undetectable nuke to hit the Moon Tea water: heat to 80°C or boil to 100°C and let it cool down to 80°C? Pi got your number
+Would earthlike planets in other solar systems have well-known Earth gemstones such as rubies, emeralds and sapphires?
+
+Would earthlike planets in other solar systems have well-known Earth gemstones such as rubies, emeralds and sapphires?
+Why is melting point independent of external pressure?
+
+Why is melting point independent of external pressure?
+What is "spilling the beans"? A proverb? A phrase? ...?
+
+What is "spilling the beans"? A proverb? A phrase? ...?
+How avoid a question about women being loyal housewives?
+
+How avoid a question about women being loyal housewives?
+Bash word count for sequence length is wrong
+
+Bash word count for sequence length is wrong
+Why is faith seen as a sign of weakness, instead of an unexplored land/opportunity?
+
+Why is faith seen as a sign of weakness, instead of an unexplored land/opportunity?
+How to type two statements side by side with an iff between them
+
+How to type two statements side by side with an iff between them
+Temperature unit conversion (C,F,K) in C++ - follow-up
+
+Temperature unit conversion (C,F,K) in C++ - follow-up
+Some authors can use variants of their last names in two different publications. How does one write their last name when citing both inline?
+
+Some authors can use variants of their last names in two different publications. How does one write their last name when citing both inline?
+Why has Israel not expelled Russian diplomats in response to the Skripal poisoning?
+
+Why has Israel not expelled Russian diplomats in response to the Skripal poisoning?
+Is it permitted to bring bottled water from an outside source into a kosher dining hall?
+
+Is it permitted to bring bottled water from an outside source into a kosher dining hall?
+Interpretation of the butterfly effect
+
+Interpretation of the butterfly effect
+How to ask someone on a date when dating is untraditional?
+
+How to ask someone on a date when dating is untraditional?
+Average Value not working
+
+Average Value not working
+How would a lunar colony defend itself against aggression from Earth?
+
+How would a lunar colony defend itself against aggression from Earth?
+Are apt-file and apt-cache part of apt?
+
+Are apt-file and apt-cache part of apt?
+How High is a High Jump?
+
+How High is a High Jump?
+Zero-sum counting
+
+Zero-sum counting
+Do sounds from different musical instrument merge together into one wave?
+
+Do sounds from different musical instrument merge together into one wave?
+Are LEDs better than we think?
+
+Are LEDs better than we think?
+How would a Crystalline species send a probe into space?
+
+How would a Crystalline species send a probe into space?
+Difficulty in designing an undetectable nuke to hit the Moon
+
+Difficulty in designing an undetectable nuke to hit the Moon
+Tea water: heat to 80°C or boil to 100°C and let it cool down to 80°C?
+
+Tea water: heat to 80°C or boil to 100°C and let it cool down to 80°C?
+Pi got your number
+
+Pi got your number
+more hot questions
+question feed
+question feed
+
+
+
+
+
+
+lang-java
+Stack Overflow Questions Jobs Developer Jobs Directory Salary Calculator Help Mobile Stack Overflow Business Talent Ads Enterprise Company About Press Work Here Legal Privacy Policy Contact Us Stack Exchange Network Technology Life / Arts Culture / Recreation Science Other Stack Overflow Server Fault Super User Web Applications Ask Ubuntu Webmasters Game Development TeX - LaTeX Software Engineering Unix & Linux Ask Different (Apple) WordPress Development Geographic Information Systems Electrical Engineering Android Enthusiasts Information Security Database Administrators Drupal Answers SharePoint User Experience Mathematica Salesforce ExpressionEngine® Answers Stack Overflow em Português Blender Network Engineering Cryptography Code Review Magento Software Recommendations Signal Processing Emacs Raspberry Pi Stack Overflow на русском Programming Puzzles & Code Golf Stack Overflow en español Ethereum Data Science Arduino Bitcoin more (28) Photography Science Fiction & Fantasy Graphic Design Movies & TV Music: Practice & Theory Worldbuilding Seasoned Advice (cooking) Home Improvement Personal Finance & Money Academia Law more (15) English Language & Usage Skeptics Mi Yodeya (Judaism) Travel Christianity English Language Learners Japanese Language Arqade (gaming) Bicycles Role-playing Games Anime & Manga Puzzling Motor Vehicle Maintenance & Repair more (33) MathOverflow Mathematics Cross Validated (stats) Theoretical Computer Science Physics Chemistry Biology Computer Science Philosophy more (10) Meta Stack Exchange Stack Apps API Data Area 51 Blog Facebook Twitter LinkedIn site design / logo © 2018 Stack Exchange Inc; user contributions licensed under cc by-sa 3.0 with attribution required. rev 2018.4.2.29701
+Stack Overflow Questions Jobs Developer Jobs Directory Salary Calculator Help Mobile Stack Overflow Business Talent Ads Enterprise Company About Press Work Here Legal Privacy Policy Contact Us Stack Exchange Network Technology Life / Arts Culture / Recreation Science Other Stack Overflow Server Fault Super User Web Applications Ask Ubuntu Webmasters Game Development TeX - LaTeX Software Engineering Unix & Linux Ask Different (Apple) WordPress Development Geographic Information Systems Electrical Engineering Android Enthusiasts Information Security Database Administrators Drupal Answers SharePoint User Experience Mathematica Salesforce ExpressionEngine® Answers Stack Overflow em Português Blender Network Engineering Cryptography Code Review Magento Software Recommendations Signal Processing Emacs Raspberry Pi Stack Overflow на русском Programming Puzzles & Code Golf Stack Overflow en español Ethereum Data Science Arduino Bitcoin more (28) Photography Science Fiction & Fantasy Graphic Design Movies & TV Music: Practice & Theory Worldbuilding Seasoned Advice (cooking) Home Improvement Personal Finance & Money Academia Law more (15) English Language & Usage Skeptics Mi Yodeya (Judaism) Travel Christianity English Language Learners Japanese Language Arqade (gaming) Bicycles Role-playing Games Anime & Manga Puzzling Motor Vehicle Maintenance & Repair more (33) MathOverflow Mathematics Cross Validated (stats) Theoretical Computer Science Physics Chemistry Biology Computer Science Philosophy more (10) Meta Stack Exchange Stack Apps API Data Area 51 Blog Facebook Twitter LinkedIn site design / logo © 2018 Stack Exchange Inc; user contributions licensed under cc by-sa 3.0 with attribution required. rev 2018.4.2.29701
+
+
+
+
+
+
+Stack Overflow Questions Jobs Developer Jobs Directory Salary Calculator Help Mobile Stack Overflow Business Talent Ads Enterprise Company About Press Work Here Legal Privacy Policy Contact Us Stack Exchange Network Technology Life / Arts Culture / Recreation Science Other Stack Overflow Server Fault Super User Web Applications Ask Ubuntu Webmasters Game Development TeX - LaTeX Software Engineering Unix & Linux Ask Different (Apple) WordPress Development Geographic Information Systems Electrical Engineering Android Enthusiasts Information Security Database Administrators Drupal Answers SharePoint User Experience Mathematica Salesforce ExpressionEngine® Answers Stack Overflow em Português Blender Network Engineering Cryptography Code Review Magento Software Recommendations Signal Processing Emacs Raspberry Pi Stack Overflow на русском Programming Puzzles & Code Golf Stack Overflow en español Ethereum Data Science Arduino Bitcoin more (28) Photography Science Fiction & Fantasy Graphic Design Movies & TV Music: Practice & Theory Worldbuilding Seasoned Advice (cooking) Home Improvement Personal Finance & Money Academia Law more (15) English Language & Usage Skeptics Mi Yodeya (Judaism) Travel Christianity English Language Learners Japanese Language Arqade (gaming) Bicycles Role-playing Games Anime & Manga Puzzling Motor Vehicle Maintenance & Repair more (33) MathOverflow Mathematics Cross Validated (stats) Theoretical Computer Science Physics Chemistry Biology Computer Science Philosophy more (10) Meta Stack Exchange Stack Apps API Data Area 51
+Stack Overflow Questions Jobs Developer Jobs Directory Salary Calculator Help Mobile
+Stack Overflow
+Stack Overflow
+Questions Jobs Developer Jobs Directory Salary Calculator Help Mobile
+Questions
+Questions
+Jobs
+Jobs
+Developer Jobs Directory
+Developer Jobs Directory
+Salary Calculator
+Salary Calculator
+Help
+Help
+Mobile
+Mobile
+Stack Overflow Business Talent Ads Enterprise
+Stack Overflow Business
+Stack Overflow Business
+
+Talent Ads Enterprise
+Talent
+Talent
+Ads
+Ads
+Enterprise
+Enterprise
+Company About Press Work Here Legal Privacy Policy Contact Us
+Company
+Company
+About Press Work Here Legal Privacy Policy Contact Us
+About
+About
+Press
+Press
+Work Here
+Work Here
+Legal
+Legal
+Privacy Policy
+Privacy Policy
+Contact Us
+Contact Us
+Stack Exchange Network Technology Life / Arts Culture / Recreation Science Other
+
+
+
+Stack Exchange Network Technology Life / Arts Culture / Recreation Science Other
+Stack Exchange Network
+Stack Exchange Network
+
+Technology Life / Arts Culture / Recreation Science Other
+Technology
+Technology
+Life / Arts
+Life / Arts
+Culture / Recreation
+Culture / Recreation
+Science
+Science
+Other
+Other
+Stack Overflow Server Fault Super User Web Applications Ask Ubuntu Webmasters Game Development TeX - LaTeX Software Engineering Unix & Linux Ask Different (Apple) WordPress Development Geographic Information Systems Electrical Engineering Android Enthusiasts Information Security Database Administrators Drupal Answers SharePoint User Experience Mathematica Salesforce ExpressionEngine® Answers Stack Overflow em Português Blender Network Engineering Cryptography Code Review Magento Software Recommendations Signal Processing Emacs Raspberry Pi Stack Overflow на русском Programming Puzzles & Code Golf Stack Overflow en español Ethereum Data Science Arduino Bitcoin more (28) Photography Science Fiction & Fantasy Graphic Design Movies & TV Music: Practice & Theory Worldbuilding Seasoned Advice (cooking) Home Improvement Personal Finance & Money Academia Law more (15) English Language & Usage Skeptics Mi Yodeya (Judaism) Travel Christianity English Language Learners Japanese Language Arqade (gaming) Bicycles Role-playing Games Anime & Manga Puzzling Motor Vehicle Maintenance & Repair more (33) MathOverflow Mathematics Cross Validated (stats) Theoretical Computer Science Physics Chemistry Biology Computer Science Philosophy more (10) Meta Stack Exchange Stack Apps API Data Area 51
+Stack Overflow Server Fault Super User Web Applications Ask Ubuntu Webmasters Game Development
+Stack Overflow Server Fault Super User Web Applications Ask Ubuntu Webmasters Game Development
+Stack Overflow
+Stack Overflow
+Server Fault
+Server Fault
+Super User
+Super User
+Web Applications
+Web Applications
+Ask Ubuntu
+Ask Ubuntu
+Webmasters
+Webmasters
+Game Development
+Game Development
+TeX - LaTeX Software Engineering Unix & Linux Ask Different (Apple) WordPress Development Geographic Information Systems Electrical Engineering
+TeX - LaTeX Software Engineering Unix & Linux Ask Different (Apple) WordPress Development Geographic Information Systems Electrical Engineering
+TeX - LaTeX
+TeX - LaTeX
+Software Engineering
+Software Engineering
+Unix & Linux
+Unix & Linux
+Ask Different (Apple)
+Ask Different (Apple)
+WordPress Development
+WordPress Development
+Geographic Information Systems
+Geographic Information Systems
+Electrical Engineering
+Electrical Engineering
+Android Enthusiasts Information Security Database Administrators Drupal Answers SharePoint User Experience Mathematica
+Android Enthusiasts Information Security Database Administrators Drupal Answers SharePoint User Experience Mathematica
+Android Enthusiasts
+Android Enthusiasts
+Information Security
+Information Security
+Database Administrators
+Database Administrators
+Drupal Answers
+Drupal Answers
+SharePoint
+SharePoint
+User Experience
+User Experience
+Mathematica
+Mathematica
+Salesforce ExpressionEngine® Answers Stack Overflow em Português Blender Network Engineering Cryptography Code Review
+Salesforce ExpressionEngine® Answers Stack Overflow em Português Blender Network Engineering Cryptography Code Review
+Salesforce
+Salesforce
+ExpressionEngine® Answers
+ExpressionEngine® Answers
+Stack Overflow em Português
+Stack Overflow em Português
+Blender
+Blender
+Network Engineering
+Network Engineering
+Cryptography
+Cryptography
+Code Review
+Code Review
+Magento Software Recommendations Signal Processing Emacs Raspberry Pi Stack Overflow на русском Programming Puzzles & Code Golf
+Magento Software Recommendations Signal Processing Emacs Raspberry Pi Stack Overflow на русском Programming Puzzles & Code Golf
+Magento
+Magento
+Software Recommendations
+Software Recommendations
+Signal Processing
+Signal Processing
+Emacs
+Emacs
+Raspberry Pi
+Raspberry Pi
+Stack Overflow на русском
+Stack Overflow на русском
+Programming Puzzles & Code Golf
+Programming Puzzles & Code Golf
+Stack Overflow en español Ethereum Data Science Arduino Bitcoin more (28)
+Stack Overflow en español Ethereum Data Science Arduino Bitcoin more (28)
+Stack Overflow en español
+Stack Overflow en español
+Ethereum
+Ethereum
+Data Science
+Data Science
+Arduino
+Arduino
+Bitcoin
+Bitcoin
+more (28)
+more (28)
+more (28)
+Photography Science Fiction & Fantasy Graphic Design Movies & TV Music: Practice & Theory Worldbuilding Seasoned Advice (cooking)
+Photography Science Fiction & Fantasy Graphic Design Movies & TV Music: Practice & Theory Worldbuilding Seasoned Advice (cooking)
+Photography
+Photography
+Science Fiction & Fantasy
+Science Fiction & Fantasy
+Graphic Design
+Graphic Design
+Movies & TV
+Movies & TV
+Music: Practice & Theory
+Music: Practice & Theory
+Worldbuilding
+Worldbuilding
+Seasoned Advice (cooking)
+Seasoned Advice (cooking)
+Home Improvement Personal Finance & Money Academia Law more (15)
+Home Improvement Personal Finance & Money Academia Law more (15)
+Home Improvement
+Home Improvement
+Personal Finance & Money
+Personal Finance & Money
+Academia
+Academia
+Law
+Law
+more (15)
+more (15)
+more (15)
+English Language & Usage Skeptics Mi Yodeya (Judaism) Travel Christianity English Language Learners Japanese Language
+English Language & Usage Skeptics Mi Yodeya (Judaism) Travel Christianity English Language Learners Japanese Language
+English Language & Usage
+English Language & Usage
+Skeptics
+Skeptics
+Mi Yodeya (Judaism)
+Mi Yodeya (Judaism)
+Travel
+Travel
+Christianity
+Christianity
+English Language Learners
+English Language Learners
+Japanese Language
+Japanese Language
+Arqade (gaming) Bicycles Role-playing Games Anime & Manga Puzzling Motor Vehicle Maintenance & Repair more (33)
+Arqade (gaming) Bicycles Role-playing Games Anime & Manga Puzzling Motor Vehicle Maintenance & Repair more (33)
+Arqade (gaming)
+Arqade (gaming)
+Bicycles
+Bicycles
+Role-playing Games
+Role-playing Games
+Anime & Manga
+Anime & Manga
+Puzzling
+Puzzling
+Motor Vehicle Maintenance & Repair
+Motor Vehicle Maintenance & Repair
+more (33)
+more (33)
+more (33)
+MathOverflow Mathematics Cross Validated (stats) Theoretical Computer Science Physics Chemistry Biology
+MathOverflow Mathematics Cross Validated (stats) Theoretical Computer Science Physics Chemistry Biology
+MathOverflow
+MathOverflow
+Mathematics
+Mathematics
+Cross Validated (stats)
+Cross Validated (stats)
+Theoretical Computer Science
+Theoretical Computer Science
+Physics
+Physics
+Chemistry
+Chemistry
+Biology
+Biology
+Computer Science Philosophy more (10)
+Computer Science Philosophy more (10)
+Computer Science
+Computer Science
+Philosophy
+Philosophy
+more (10)
+more (10)
+more (10)
+Meta Stack Exchange Stack Apps API Data Area 51
+Meta Stack Exchange Stack Apps API Data Area 51
+Meta Stack Exchange
+Meta Stack Exchange
+Stack Apps
+Stack Apps
+API
+API
+Data
+Data
+Area 51
+Area 51
+Blog Facebook Twitter LinkedIn site design / logo © 2018 Stack Exchange Inc; user contributions licensed under cc by-sa 3.0 with attribution required. rev 2018.4.2.29701
+Blog Facebook Twitter LinkedIn
+Blog
+Blog
+Facebook
+Facebook
+Twitter
+Twitter
+LinkedIn
+LinkedIn
+site design / logo © 2018 Stack Exchange Inc; user contributions licensed under cc by-sa 3.0 with attribution required. rev 2018.4.2.29701
+cc by-sa 3.0
+attribution required
+rev 2018.4.2.29701
+Stack Overflow works best with JavaScript enabled
+Stack Overflow works best with JavaScript enabled
+
+
+
